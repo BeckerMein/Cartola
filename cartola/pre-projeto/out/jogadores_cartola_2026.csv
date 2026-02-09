@@ -1,0 +1,660 @@
+﻿atleta_id;nome;apelido;slug;clube_id;clube_nome;clube_abreviacao;posicao_id;posicao_nome;status_id;status_nome;preco_num;variacao_num;media_num;jogos_num;pontos_num
+51413;Walter Leandro Capeloza Artune;Walter;walter;2305;MIR;MIR;1;Goleiro;7;Provável;5;0;0;0;0
+97735;Giovanni Fernando Confreste Pavani - Cofreste;Giovanni Pavani;giovanni-pavani;364;REM;REM;4;Meia;6;Nulo;3;0;0;0;0
+98224;Jaderson Flores dos Reis;Jáderson;jaderson;364;REM;REM;4;Meia;7;Provável;4;0;0;0;0
+111945;Diego Manuel Hernández González;Diego Hernández;diego-hernandez;364;REM;REM;4;Meia;6;Nulo;4;0;0;0;0
+104257;João Lucas de Almeida Carvalho;João Lucas;joao-lucas;364;REM;REM;2;Lateral;7;Provável;5;0;0;0;0
+97795;Marcelo Rodrigues Souza;Marcelinho;marcelinho;364;REM;REM;2;Lateral;6;Nulo;3;0;0;0;0
+117338;Yago de Paula Ferreira;Yago Ferreira;yago-ferreira;364;REM;REM;4;Meia;6;Nulo;2;0;0;0;0
+95555;Sávio Antônio Alves;Sávio;savio;364;REM;REM;2;Lateral;7;Provável;4;0;0;0;0
+107172;Patrick de Paula Carreiro;Patrick de Paula;patrick-de-paula;364;REM;REM;4;Meia;7;Provável;5;0;0;0;0
+96831;Carlos Moisés de Lima;Carlinhos;carlinhos;364;REM;REM;5;Atacante;7;Provável;4;0;0;0;0
+101717;Marrony da Silva Liberato;Marrony;marrony;364;REM;REM;5;Atacante;6;Nulo;4;0;0;0;0
+143455;Darilson Gama Amador;PH Gama;ph-gama;364;REM;REM;4;Meia;6;Nulo;2;0;0;0;0
+102911;José Ricardo Araújo Fernandes;Zé Ricardo;ze-ricardo;364;REM;REM;4;Meia;7;Provável;3;0;0;0;0
+68822;Rafael de Carvalho Santos;Rafael Santos;rafael-santos;315;CHA;CHA;1;Goleiro;7;Provável;3;0;0;0;0
+122441;Kayky Henrique Almeida Brandão da Silva;Kayky Almeida;kayky-almeida;364;REM;REM;3;Zagueiro;6;Nulo;2;0;0;0;0
+141386;Marcos Alexandre Ferreira Campos Filho;Marcos Alexandre;marcos-alexandre;364;REM;REM;1;Goleiro;6;Nulo;1;0;0;0;0
+142593;Michael Nicolás Ferreira Berrondo;Nicolás Ferreira;nicolas-ferreira;364;REM;REM;5;Atacante;6;Nulo;3;0;0;0;0
+145782;Cristian Marcelo González Tassano;Cristian Tassano;cristian-tassano;364;REM;REM;3;Zagueiro;6;Nulo;3;0;0;0;0
+146040;João Pedro Sousa Silva;João Pedro;joao-pedro;364;REM;REM;5;Atacante;6;Nulo;3;0;0;0;0
+88293;Altemir Cordeiro Pessôa Neto;Neto Pessoa;neto-pessoa;315;CHA;CHA;5;Atacante;5;Contundido;3;0;0;0;0
+68938;Giovanni Augusto Oliveira Cardoso;Giovanni Augusto;giovanni-augusto;315;CHA;CHA;4;Meia;6;Nulo;5;0;0;0;0
+70958;Jean Carlos Vicente;Jean Carlos;jean-carlos;315;CHA;CHA;4;Meia;7;Provável;4;0;0;0;0
+83048;Rafael Thyere de Albuquerque Marques;Rafael Thyere;rafael-thyere;315;CHA;CHA;3;Zagueiro;5;Contundido;4;0;0;0;0
+141385;João Victor Ferreira da Silva;João Victor;joao-victor;364;REM;REM;1;Goleiro;6;Nulo;1;0;0;0;0
+71043;Leonardo da Silva Vieira;Léo Vieira;leo-vieira;315;CHA;CHA;1;Goleiro;6;Nulo;2;0;0;0;0
+97969;Marcos Vinícius da Silva Santos;Marcos Vinícius;marcos-vinicius;315;CHA;CHA;2;Lateral;7;Provável;3;0;0;0;0
+72491;Matheus Simonete Bressanelli;Bressan;bressan;315;CHA;CHA;3;Zagueiro;6;Nulo;3;0;0;0;0
+73481;Gilmar Dal Pozzo;Gilmar Dal Pozzo;gilmar-dal-pozzo;315;CHA;CHA;6;Técnico;7;Provável;3;0;0;0;0
+94286;Pedro Henrique Perotti;Perotti;perotti;315;CHA;CHA;5;Atacante;6;Nulo;4;0;0;0;0
+97432;Victor Henrique Carvalho Caetano;Victor Caetano;victor-caetano;315;CHA;CHA;3;Zagueiro;7;Provável;3;0;0;0;0
+95332;Márcio Antônio de Sousa Júnior;Marcinho;marcinho;315;CHA;CHA;5;Atacante;7;Provável;3;0;0;0;0
+95620;Bruno Leonardo dos Santos Covas;Bruno Leonardo;bruno-leonardo;315;CHA;CHA;3;Zagueiro;6;Nulo;3;0;0;0;0
+107516;Sebastião Ênio Santos de Almeida;Ênio;enio;315;CHA;CHA;5;Atacante;6;Nulo;4;0;0;0;0
+105664;Walter David Clar Fritz;Walter Clar;walter-clar;315;CHA;CHA;2;Lateral;7;Provável;4;0;0;0;0
+107453;João Paulo Silveira dos Santos;João Paulo;joao-paulo;315;CHA;CHA;3;Zagueiro;7;Provável;3;0;0;0;0
+101393;Eduardo Vinícius Domachowski;Eduardo Doma;eduardo-doma;315;CHA;CHA;3;Zagueiro;7;Provável;2;0;0;0;0
+104470;Everton Souza da Cruz;Everton;everton;315;CHA;CHA;2;Lateral;6;Nulo;3;0;0;0;0
+122138;João Vitor de Souza Martins;João Vitor;joao-vitor;315;CHA;CHA;4;Meia;6;Nulo;3;0;0;0;0
+104519;Camilo Reijers de Oliveira;Camilo;camilo;315;CHA;CHA;4;Meia;7;Provável;4;0;0;0;0
+103987;Higor Matheus Meritão;Higor Meritão;higor-meritao;315;CHA;CHA;4;Meia;6;Nulo;4;0;0;0;0
+109336;Rafael dos Santos Carvalheira Natividade;Rafael Carvalheira;rafael-carvalheira;315;CHA;CHA;4;Meia;7;Provável;4;0;0;0;0
+102906;Anderson Silva da Paixão;Anderson;anderson;315;CHA;CHA;1;Goleiro;6;Nulo;3;0;0;0;0
+111279;Gianluca Piola Minozzo;Mancha;mancha;315;CHA;CHA;2;Lateral;6;Nulo;3;0;0;0;0
+111802;Jhonnathan Espedito Coco Wagner;Jhonnathan;jhonnathan;315;CHA;CHA;3;Zagueiro;6;Nulo;2;0;0;0;0
+116066;Rubens Tadeu Hartmann Ricoldi;Rubens;rubens;315;CHA;CHA;5;Atacante;6;Nulo;2;0;0;0;0
+130414;Robert dos Santos Conceição;Robert;robert;315;CHA;CHA;4;Meia;6;Nulo;3;0;0;0;0
+121870;Gustavo Talles da Silva;Gustavo Talles;gustavo-talles;315;CHA;CHA;2;Lateral;6;Nulo;2;0;0;0;0
+123625;Italo de Vargas da Rosa;Ítalo;italo;315;CHA;CHA;5;Atacante;7;Provável;2;0;0;0;0
+130843;Arthur dos Santos Barbosa Dias;Arthur Dias;arthur-dias;293;CAP;CAP;3;Zagueiro;7;Provável;3;0;0;0;0
+130806;Kauan Faria Gomes;Kauan;kauan;315;CHA;CHA;3;Zagueiro;6;Nulo;1;0;0;0;0
+140438;David Antunes da Silva;David;david;315;CHA;CHA;4;Meia;6;Nulo;1;0;0;0;0
+110426;Alexandro Ezequiel Bernabéi;Bernabéi;bernabei;285;INT;INT;2;Lateral;7;Provável;11;0;0;0;0
+68708;Carlos Eduardo de Oliveira Alves;Eduardo;eduardo;2305;MIR;MIR;4;Meia;6;Nulo;6;0;0;0;0
+99147;Rodrigo Antonio Rodrigues;Rodrigo Rodrigues;rodrigo-rodrigues;2305;MIR;MIR;5;Atacante;6;Nulo;4;0;0;0;0
+99552;Agustín Daniel Rossi;Rossi;rossi;262;FLA;FLA;1;Goleiro;7;Provável;9;0;0;0;0
+97900;Vitor Eduardo da Silva Matos;Vitão;vitao;262;FLA;FLA;3;Zagueiro;6;Nulo;9;0;0;0;0
+141812;Jonathan Estiven Palacios Castillo;Palacios;palacios;315;CHA;CHA;5;Atacante;6;Nulo;2;0;0;0;0
+130619;Mailson Bezerra Silva;Mailson;mailson;315;CHA;CHA;5;Atacante;6;Nulo;2;0;0;0;0
+78850;Reinaldo Manoel da Silva;Reinaldo;reinaldo;2305;MIR;MIR;2;Lateral;7;Provável;17;0;0;0;0
+124674;Felipe Negrucci Berdague;Felipe Negrucci;felipe-negrucci;276;SAO;SAO;4;Meia;6;Nulo;2;0;0;0;0
+107093;Luciano Batista da Silva Júnior;Luciano Juba;luciano-juba;265;BAH;BAH;2;Lateral;7;Provável;7;0;0;0;0
+89368;Martin Christensen Braithwaite;Braithwaite;braithwaite;284;GRE;GRE;5;Atacante;6;Nulo;13;0;0;0;0
+51772;Everton Augusto de Barros Ribeiro;Everton Ribeiro;everton-ribeiro;265;BAH;BAH;4;Meia;7;Provável;10;0;0;0;0
+89837;Luciano Federico Acosta;Lucho Acosta;lucho-acosta;266;FLU;FLU;4;Meia;7;Provável;8;0;0;0;0
+112709;Kaiki Bruno da Silva;Kaiki Bruno;kaiki-bruno;283;CRU;CRU;2;Lateral;7;Provável;14;0;0;0;0
+141776;Gustavo Henrique Pereira;Gustavo Henrique;gustavo-henrique;277;SAN;SAN;4;Meia;5;Contundido;2;0;0;0;0
+80287;Luciano da Rocha Neves;Luciano;luciano;276;SAO;SAO;5;Atacante;7;Provável;18;0;0;0;0
+89274;Andreas Hugo Hoelgebaum Pereira;Andreas Pereira;andreas-pereira;275;PAL;PAL;4;Meia;2;Dúvida;15;0;0;0;0
+147297;William Fernando Soares de Almeida;William Fernando;william-fernando;283;CRU;CRU;2;Lateral;6;Nulo;1;0;0;0;0
+100652;Yuri Alberto Monteiro da Silva;Yuri Alberto;yuri-alberto;264;COR;COR;5;Atacante;7;Provável;19;0;0;0;0
+39148;Givanildo Vieira de Souza;Hulk;hulk;282;CAM;CAM;5;Atacante;7;Provável;16;0;0;0;0
+126471;Álvaro Martín Barreal;Barreal;barreal;277;SAN;SAN;4;Meia;7;Provável;12;0;0;0;0
+115025;Miguel Àngel Terceros;Miguelito;miguelito;277;SAN;SAN;4;Meia;6;Nulo;4;0;0;0;0
+122127;Luis Fernando Santos Oliveira;Fernando;fernando;283;CRU;CRU;5;Atacante;6;Nulo;1;0;0;0;0
+117842;Vitor Hugo Amorim de Assis;Vitinho;vitinho;283;CRU;CRU;4;Meia;6;Nulo;2;0;0;0;0
+144423;Nicolas Pontes de Souza Almeida;Nicolas Pontes;nicolas-pontes;283;CRU;CRU;2;Lateral;6;Nulo;1;0;0;0;0
+142049;Bruno Ferreira Alves;Bruno Alves;bruno-alves;283;CRU;CRU;3;Zagueiro;6;Nulo;2;0;0;0;0
+133673;Mateus Xavier de Sousa;Mateus Xavier;mateus-xavier;277;SAN;SAN;5;Atacante;6;Nulo;2;0;0;0;0
+115563;Rodrigo Henrique Santos de Souza;Rodriguinho;rodriguinho;283;CRU;CRU;4;Meia;6;Nulo;3;0;0;0;0
+146992;Cauan Matteo Baptistella;Cauan Baptistella;cauan-baptistella;283;CRU;CRU;4;Meia;6;Nulo;2;0;0;0;0
+106104;José David Enamorado Gómez;Enamorado;enamorado;284;GRE;GRE;5;Atacante;6;Nulo;9;0;0;0;0
+123649;José Janderson da Silva Marques;Janderson;janderson;283;CRU;CRU;3;Zagueiro;6;Nulo;1;0;0;0;0
+147287;Kaiquy Luiz Alves Vasco;Kaiquy Luiz;kaiquy-luiz;283;CRU;CRU;3;Zagueiro;6;Nulo;1;0;0;0;0
+103445;Kaio Jorge Pinto Ramos;Kaio Jorge;kaio-jorge;283;CRU;CRU;5;Atacante;7;Provável;17;0;0;0;0
+128433;Johan Rojas Echavarría;Johan Rojas;johan-rojas;267;VAS;VAS;4;Meia;6;Nulo;6;0;0;0;0
+146991;Rhuan Gabriel Rodrigues de Souza Silva;Rhuan Gabriel;rhuan-gabriel;283;CRU;CRU;4;Meia;6;Nulo;1;0;0;0;0
+94583;Pedro Guilherme Abreu dos Santos;Pedro;pedro;262;FLA;FLA;5;Atacante;7;Provável;20;0;0;0;0
+142130;Marcelo Eráclito de Souza Filho;Marcelo Eráclito;marcelo-eraclito;283;CRU;CRU;1;Goleiro;6;Nulo;1;0;0;0;0
+101908;Willian Estefani Machado;Willian Machado;willian-machado;2305;MIR;MIR;3;Zagueiro;7;Provável;5;0;0;0;0
+86292;Yannick Bolasie;Bolasie;bolasie;315;CHA;CHA;5;Atacante;6;Nulo;6;0;0;0;0
+78946;Matheus Dória Macedo;Dória;doria;276;SAO;SAO;3;Zagueiro;6;Nulo;7;0;0;0;0
+91639;Igor Aquino da Silva;Igor Cariús;igor-carius;2305;MIR;MIR;2;Lateral;6;Nulo;3;0;0;0;0
+81121;Lucas Andrés Mugni;Lucas Mugni;lucas-mugni;2305;MIR;MIR;4;Meia;7;Provável;7;0;0;0;0
+112367;Thalisson Gabriel Pereira Moreira;Thalisson Gabriel;thalisson-gabriel;364;REM;REM;3;Zagueiro;6;Nulo;3;0;0;0;0
+114802;Vitor Hugo Roque Ferreira;Vitor Roque;vitor-roque;275;PAL;PAL;5;Atacante;7;Provável;21;0;0;0;0
+145400;Cauê Nascimento Santos;Cauê;caue;280;RBB;RBB;2;Lateral;6;Nulo;2;0;0;0;0
+118655;Alan Gabriel Saldivia Vázquez;Saldivia;saldivia;267;VAS;VAS;3;Zagueiro;6;Nulo;6;0;0;0;0
+126182;Paulo Lucas Santos de Paula;Paulinho;paulinho;285;INT;INT;4;Meia;6;Nulo;5;0;0;0;0
+133696;Wallace Davi Nunes da Silva Dias;Wallace Davi;wallace-davi;266;FLU;FLU;4;Meia;6;Nulo;4;0;0;0;0
+131516;João Pedro Chermont Crema;JP Chermont;jp-chermont;277;SAN;SAN;2;Lateral;6;Nulo;2;0;0;0;0
+108713;Antonio Javier Galeano Ferreira;Galeano;galeano;2305;MIR;MIR;5;Atacante;6;Nulo;8;0;0;0;0
+115986;Denilson Alves Borges;Denilson;denilson;2305;MIR;MIR;4;Meia;6;Nulo;5;0;0;0;0
+130280;Phillipe Gabriel Pires de Oliveira;Phillipe Gabriel;phillipe-gabriel;267;VAS;VAS;1;Goleiro;6;Nulo;1;0;0;0;0
+124758;Gustavo Henrique da Silva;Gustavo Henrique;gustavo-henrique;280;RBB;RBB;3;Zagueiro;6;Nulo;3;0;0;0;0
+126120;Marcelo Braz da Silva;Marcelinho;marcelinho;280;RBB;RBB;4;Meia;6;Nulo;1;0;0;0;0
+130255;Guilherme Estrella de Paiva;Guilherme Estrella;guilherme-estrella;267;VAS;VAS;4;Meia;6;Nulo;3;0;0;0;0
+122487;Gabriel Souza da Silva;GB;gb;267;VAS;VAS;5;Atacante;2;Dúvida;4;0;0;0;0
+94514;Lucas da Cruz Oliveira;Lucas Oliveira;lucas-oliveira;2305;MIR;MIR;3;Zagueiro;6;Nulo;4;0;0;0;0
+141139;Mateus José Iseppe;Mateus Iseppe;mateus-iseppe;282;CAM;CAM;4;Meia;6;Nulo;2;0;0;0;0
+132412;Román Agustín Gómez;Román Gómez;roman-gomez;265;BAH;BAH;2;Lateral;6;Nulo;5;0;0;0;0
+147090;Kauã Pascini Resende;Kauã Pascini;kaua-pascini;282;CAM;CAM;2;Lateral;6;Nulo;1;0;0;0;0
+90061;Bruno de Jesus Pacheco;Bruno Pacheco;bruno-pacheco;315;CHA;CHA;2;Lateral;6;Nulo;6;0;0;0;0
+141131;Vitor Fernandes Chaves Teixeira;Vitão;vitao;282;CAM;CAM;3;Zagueiro;6;Nulo;1;0;0;0;0
+114040;Alan Steve Minda García;Minda;minda;282;CAM;CAM;5;Atacante;6;Nulo;9;0;0;0;0
+94154;Maycon de Andrade Barberan;Maycon;maycon;282;CAM;CAM;4;Meia;7;Provável;7;0;0;0;0
+102909;Luan Vinícius da Silva Santos;Luan Vinícius;luan-vinicius;276;SAO;SAO;4;Meia;6;Nulo;4;0;0;0;0
+146894;João Henrique Araújo Bom;João Bom;joao-bom;315;CHA;CHA;5;Atacante;6;Nulo;2;0;0;0;0
+70666;Marllon Gonçalves Jerônimo Borges;Marllon;marllon;364;REM;REM;3;Zagueiro;6;Nulo;5;0;0;0;0
+130048;Erick Carlos Noriega Loret de Mola;Noriega;noriega;284;GRE;GRE;3;Zagueiro;7;Provável;5;0;0;0;0
+83433;Patrick Bezerra do Nascimento;Patrick;patrick;364;REM;REM;4;Meia;6;Nulo;5;0;0;0;0
+132553;Jemmes Bruno Ribeiro da Silva;Jemmes;jemmes;266;FLU;FLU;3;Zagueiro;7;Provável;6;0;0;0;0
+103183;Andrew da Silva Ventura;Andrew;andrew;262;FLA;FLA;1;Goleiro;6;Nulo;3;0;0;0;0
+91251;Antônio Josenildo Rodrigues de Oliveira;Rodrigues;rodrigues;2305;MIR;MIR;3;Zagueiro;6;Nulo;4;0;0;0;0
+141873;João Vitor Barros Silva;Jacaré;jacare;264;COR;COR;2;Lateral;6;Nulo;2;0;0;0;0
+100342;Leonardo de Andrade Silva;Léo Andrade;leo-andrade;364;REM;REM;3;Zagueiro;7;Provável;4;0;0;0;0
+93988;Breno Henrique Vasconcelos Lopes;Breno Lopes;breno-lopes;294;CFC;CFC;5;Atacante;6;Nulo;8;0;0;0;0
+106302;Ángelo Smit Preciado Quiñónez;Preciado;preciado;282;CAM;CAM;2;Lateral;6;Nulo;8;0;0;0;0
+141614;Paulo Sérgio Venuto Bezerra;Paulinho;paulinho;276;SAO;SAO;5;Atacante;6;Nulo;2;0;0;0;0
+106708;Igor Marques Paciência Cardoso;Igor Formiga;igor-formiga;2305;MIR;MIR;2;Lateral;6;Nulo;6;0;0;0;0
+116034;Victor Hugo Gomes Silva;Victor Hugo;victor-hugo;282;CAM;CAM;4;Meia;7;Provável;4;0;0;0;0
+89256;Gerson Santos da Silva;Gerson;gerson;283;CRU;CRU;4;Meia;7;Provável;13;0;0;0;0
+69208;Gabriel Armando de Abreu;Gabriel Paulista;gabriel-paulista;264;COR;COR;3;Zagueiro;7;Provável;10;0;0;0;0
+103388;Leandro Emmanuel Martínez;Emmanuel Martínez;emmanuel-martinez;287;VIT;VIT;4;Meia;6;Nulo;5;0;0;0;0
+147194;Bruno Braga Ramos;Bruninho;bruninho;293;CAP;CAP;4;Meia;6;Nulo;3;0;0;0;0
+147864;Rafael Monti Azpiazú;Rafael Monti;rafael-monti;364;REM;REM;5;Atacante;6;Nulo;4;0;0;0;0
+110633;Gustavo Silva de Oliveira;Gustavo;gustavo;294;CFC;CFC;4;Meia;6;Nulo;4;0;0;0;0
+105157;Rodrigo Román Villagra;Villagra;villagra;285;INT;INT;4;Meia;6;Nulo;8;0;0;0;0
+71536;Luiz Gustavo Dias;Luiz Gustavo;luiz-gustavo;293;CAP;CAP;4;Meia;6;Nulo;6;0;0;0;0
+95362;Zander Mateo Casierra Cabezas;Cassierra;cassierra;282;CAM;CAM;5;Atacante;6;Nulo;10;0;0;0;0
+107700;Eduardo de Queiroz Melo;Eduardo Melo;eduardo-melo;364;REM;REM;5;Atacante;6;Nulo;2;0;0;0;0
+142265;Wendeson Wanderley Santos de Melo;Dell;dell;265;BAH;BAH;5;Atacante;6;Nulo;2;0;0;0;0
+86859;José Welison da Silva - Zé;José Welison;jose-welison;364;REM;REM;4;Meia;6;Nulo;4;0;0;0;0
+101254;Alef Mangueira Severino Pereira;Alef Manga;alef-manga;364;REM;REM;5;Atacante;7;Provável;5;0;0;0;0
+109573;Matheus Martinelli Lima;Martinelli;martinelli;266;FLU;FLU;4;Meia;7;Provável;9;0;0;0;0
+123689;Pedro Milans Carámbula;Milans;milans;264;COR;COR;2;Lateral;6;Nulo;6;0;0;0;0
+68685;Alan Patrick Lourenço;Alan Patrick;alan-patrick;285;INT;INT;4;Meia;7;Provável;8;0;0;0;0
+105089;Mateus Cardoso Lemos Martins;Tetê;tete;284;GRE;GRE;5;Atacante;7;Provável;12;0;0;0;0
+146374;Gilberto Junior Leite dos Santos;Gilberto;gilberto;293;CAP;CAP;2;Lateral;6;Nulo;2;0;0;0;0
+122781;Gustavo Rubén Caballero González;Caballero;caballero;277;SAN;SAN;5;Atacante;6;Nulo;4;0;0;0;0
+106593;Lucas Hernán Villalba;Villalba;villalba;283;CRU;CRU;3;Zagueiro;2;Dúvida;10;0;0;0;0
+92171;Arthur Mendonça Cabral;Arthur Cabral;arthur-cabral;263;BOT;BOT;5;Atacante;7;Provável;8;0;0;0;0
+68928;Rafael Pires Monteiro;Rafael;rafael;276;SAO;SAO;1;Goleiro;7;Provável;9;0;0;0;0
+68899;Philippe Coutinho Correia;Philippe Coutinho;philippe-coutinho;267;VAS;VAS;4;Meia;7;Provável;12;0;0;0;0
+97810;Erick de Arruda Serafim;Erick;erick;287;VIT;VIT;5;Atacante;7;Provável;7;0;0;0;0
+105949;Sergio Ramón Rochet Álvarez;Rochet;rochet;285;INT;INT;1;Goleiro;7;Provável;8;0;0;0;0
+63007;Neymar da Silva Santos Júnior;Neymar;neymar;277;SAN;SAN;4;Meia;5;Contundido;19;0;0;0;0
+73717;Juan Carlos Osorio Arbeláez;Juan Carlos Osorio;juan-carlos-osorio;364;REM;REM;6;Técnico;7;Provável;6;0;0;0;0
+61987;Alex Sandro Lobo Silva;Alex Sandro;alex-sandro;262;FLA;FLA;2;Lateral;7;Provável;12;0;0;0;0
+69012;Aderbar Melo dos Santos Neto;Santos;santos;293;CAP;CAP;1;Goleiro;7;Provável;8;0;0;0;0
+104502;Christian Roberto Alves Cardoso;Christian;christian;283;CRU;CRU;4;Meia;6;Nulo;9;0;0;0;0
+100898;Victor Alexander da Silva;Vitinho;vitinho;263;BOT;BOT;2;Lateral;7;Provável;9;0;0;0;0
+104758;Enzo Hernán Díaz;Enzo Díaz;enzo-diaz;276;SAO;SAO;2;Lateral;6;Nulo;8;0;0;0;0
+72294;Everson Felipe Marques Pires;Everson;everson;282;CAM;CAM;1;Goleiro;7;Provável;11;0;0;0;0
+42234;Cássio Roberto Ramos;Cássio;cassio;283;CRU;CRU;1;Goleiro;7;Provável;13;0;0;0;0
+105436;Jorge Andrés Carrascal Guardo;Carrascal;carrascal;262;FLA;FLA;4;Meia;7;Provável;13;0;0;0;0
+103056;Gabriel Nascimento Rezende Brazão - Resende;Gabriel Brazão;gabriel-brazao;277;SAN;SAN;1;Goleiro;7;Provável;10;0;0;0;0
+96591;Renan Augusto Lodi dos Santos;Renan Lodi;renan-lodi;282;CAM;CAM;2;Lateral;7;Provável;11;0;0;0;0
+80196;Glaybson Yago Souza Lisboa;Yago Pikachu;yago-pikachu;364;REM;REM;4;Meia;7;Provável;7;0;0;0;0
+90768;Fabrício Bruno Soares de Faria;Fabrício Bruno;fabricio-bruno;283;CRU;CRU;3;Zagueiro;7;Provável;12;0;0;0;0
+37656;Fábio Deivson Lopes Maciel;Fábio;fabio;266;FLU;FLU;1;Goleiro;7;Provável;12;0;0;0;0
+87008;Leonardo César Jardim;Léo Jardim;leo-jardim;267;VAS;VAS;1;Goleiro;7;Provável;11;0;0;0;0
+91772;David de Duarte Macedo;David Duarte;david-duarte;265;BAH;BAH;3;Zagueiro;7;Provável;5;0;0;0;0
+101727;Matheus França Silva;Matheuzinho;matheuzinho;264;COR;COR;2;Lateral;7;Provável;12;0;0;0;0
+99274;Alexander Nahuel Barboza Ullúa;Alexander Barboza;alexander-barboza;263;BOT;BOT;3;Zagueiro;7;Provável;11;0;0;0;0
+115248;Jhonatan dos Santos Rosa;Jhon Jhon;jhon-jhon;280;RBB;RBB;4;Meia;2;Dúvida;14;0;0;0;0
+109401;Erick da Costa Farias;Erick Pulga;erick-pulga;265;BAH;BAH;5;Atacante;7;Provável;10;0;0;0;0
+85425;João Paulo Silva Martins;João Paulo;joao-paulo;265;BAH;BAH;1;Goleiro;6;Nulo;6;0;0;0;0
+80313;Gilberto Moraes Júnior;Gilberto;gilberto;265;BAH;BAH;2;Lateral;7;Provável;7;0;0;0;0
+123717;José Guilherme de Lima Costa;Zé Guilherme;ze-guilherme;265;BAH;BAH;2;Lateral;6;Nulo;3;0;0;0;0
+68996;Willian José da Silva;Willian José;willian-jose;265;BAH;BAH;5;Atacante;7;Provável;12;0;0;0;0
+91101;Ronaldo de Oliveira Strada;Ronaldo;ronaldo;265;BAH;BAH;1;Goleiro;7;Provável;6;0;0;0;0
+97868;Iago Amaral Borduchi;Iago;iago;265;BAH;BAH;2;Lateral;6;Nulo;4;0;0;0;0
+98484;Victor Hugo Soares dos Santos;Kanu;kanu;265;BAH;BAH;3;Zagueiro;7;Provável;4;0;0;0;0
+98022;Erick Luis Conrado de Carvalho;Erick;erick;265;BAH;BAH;4;Meia;6;Nulo;7;0;0;0;0
+105373;Gabriel Lheman Xavier - Lhman;Gabriel Xavier;gabriel-xavier;265;BAH;BAH;3;Zagueiro;6;Nulo;5;0;0;0;0
+104783;Nicolás Brian Acevedo Tabárez;Acevedo;acevedo;265;BAH;BAH;4;Meia;6;Nulo;5;0;0;0;0
+106323;Caio Alexandre Souza e Silva;Caio Alexandre;caio-alexandre;265;BAH;BAH;4;Meia;7;Provável;7;0;0;0;0
+113397;Cristian Gonzalo Olivera Ibarra;Cristian Olivera;cristian-olivera;265;BAH;BAH;5;Atacante;6;Nulo;6;0;0;0;0
+70800;Jorge Sampaoli;Jorge Sampaoli;jorge-sampaoli;282;CAM;CAM;6;Técnico;7;Provável;9;0;0;0;0
+98517;Jean Lucas de Souza Oliveira;Jean Lucas;jean-lucas;265;BAH;BAH;4;Meia;7;Provável;9;0;0;0;0
+105990;Santiago Martín Ramos Mingo;Santiago Mingo;santiago-mingo;265;BAH;BAH;3;Zagueiro;6;Nulo;6;0;0;0;0
+123360;Cauly Oliveira Souza;Cauly;cauly;265;BAH;BAH;4;Meia;6;Nulo;6;0;0;0;0
+122994;Victor dos Santos Nascimento;Victor Nascimento;victor-nascimento;265;BAH;BAH;1;Goleiro;6;Nulo;1;0;0;0;0
+90449;Júlio César de Rezende Miranda;Rezende;rezende;265;BAH;BAH;4;Meia;6;Nulo;3;0;0;0;0
+107173;Michel Daryl Araújo Villar;Michel Araújo;michel-araujo;265;BAH;BAH;4;Meia;6;Nulo;6;0;0;0;0
+68806;Norberto Murara Neto;Neto;neto;263;BOT;BOT;1;Goleiro;6;Nulo;8;0;0;0;0
+111829;Kayky da Silva Chagas;Kayky;kayky;265;BAH;BAH;5;Atacante;6;Nulo;5;0;0;0;0
+141419;Frederico Lippert Neto Gomes;Fredi Lippert;fredi-lippert;265;BAH;BAH;3;Zagueiro;6;Nulo;2;0;0;0;0
+145379;Kauê Junior Furquim da Silva;Kauê Furquim;kaue-furquim;265;BAH;BAH;5;Atacante;6;Nulo;2;0;0;0;0
+97468;Fernando Marçal de Oliveira;Marçal;marcal;263;BOT;BOT;2;Lateral;7;Provável;6;0;0;0;0
+136955;Mateo Naín Sanabria Doracio;Sanabria;sanabria;265;BAH;BAH;5;Atacante;6;Nulo;6;0;0;0;0
+106822;Rodrigo Nestor Bertalia;Rodrigo Nestor;rodrigo-nestor;265;BAH;BAH;4;Meia;6;Nulo;7;0;0;0;0
+97341;Rogério Mücke Ceni;Rogério Ceni;rogerio-ceni;265;BAH;BAH;6;Técnico;7;Provável;11;0;0;0;0
+129663;Ruan Pablo Barbosa Sousa;Ruan Pablo;ruan-pablo;265;BAH;BAH;5;Atacante;6;Nulo;2;0;0;0;0
+117965;Martín Rodrigo Anselmi;Martín Anselmi;martin-anselmi;263;BOT;BOT;6;Técnico;7;Provável;6;0;0;0;0
+72493;Alex Nicolao Telles;Alex Telles;alex-telles;263;BOT;BOT;2;Lateral;7;Provável;12;0;0;0;0
+111831;Matheus Martins Silva dos Santos;Matheus Martins;matheus-martins;263;BOT;BOT;5;Atacante;6;Nulo;5;0;0;0;0
+107183;Leonardo Matias Baiersdorf Linck;Léo Linck;leo-linck;263;BOT;BOT;1;Goleiro;7;Provável;6;0;0;0;0
+96353;Carlos Joaquín Correa;Joaquín Correa;joaquin-correa;263;BOT;BOT;5;Atacante;6;Nulo;8;0;0;0;0
+126013;Ythallo Rycklem Rodrigues de Oliveira - Ryckelm;Ythallo;ythallo;263;BOT;BOT;3;Zagueiro;6;Nulo;4;0;0;0;0
+108274;David Ricardo Loiola da Silva;David Ricardo;david-ricardo;263;BOT;BOT;3;Zagueiro;6;Nulo;7;0;0;0;0
+98280;Bartolomeu Jacinto Quissanga;Bastos;bastos;263;BOT;BOT;3;Zagueiro;6;Nulo;6;0;0;0;0
+124481;Mateo Ponte Costa;Mateo Ponte;mateo-ponte;263;BOT;BOT;2;Lateral;6;Nulo;5;0;0;0;0
+104693;Newton Araújo da Costa Júnior;Newton;newton;263;BOT;BOT;4;Meia;7;Provável;5;0;0;0;0
+124757;Nathan Ribeiro Fernandes;Nathan Fernandes;nathan-fernandes;263;BOT;BOT;5;Atacante;6;Nulo;5;0;0;0;0
+129930;Cristhian Joel Loor Santamaría - Christian;Cristhian Loor;cristhian-loor;263;BOT;BOT;1;Goleiro;6;Nulo;2;0;0;0;0
+69140;Allan Marques Loureiro;Allan;allan;263;BOT;BOT;4;Meia;6;Nulo;6;0;0;0;0
+105214;Santiago Mariano Rodríguez Molina;Santiago Rodríguez;santiago-rodriguez;263;BOT;BOT;4;Meia;2;Dúvida;8;0;0;0;0
+142890;Álvaro Montoro;Montoro;montoro;263;BOT;BOT;4;Meia;7;Provável;9;0;0;0;0
+104191;Raul Jonas Steffens;Raul;raul;263;BOT;BOT;1;Goleiro;6;Nulo;3;0;0;0;0
+107231;Danilo dos Santos de Oliveira;Danilo;danilo;263;BOT;BOT;4;Meia;7;Provável;10;0;0;0;0
+95799;Artur Victor Guimarães;Artur;artur;263;BOT;BOT;5;Atacante;7;Provável;8;0;0;0;0
+98672;Jefferson David Savarino Quintero;Savarino;savarino;266;FLU;FLU;4;Meia;6;Nulo;10;0;0;0;0
+146375;José Kadir Barría Rose;Kadir;kadir;263;BOT;BOT;5;Atacante;6;Nulo;5;0;0;0;0
+70360;Eduardo Colcenti Antunes;Eduardo Sasha;eduardo-sasha;280;RBB;RBB;5;Atacante;7;Provável;7;0;0;0;0
+91158;Kaio Fernando da Silva Pantaleão;Kaio;kaio;263;BOT;BOT;3;Zagueiro;6;Nulo;7;0;0;0;0
+103179;Christopher Ramos de la Flor;Chris Ramos;chris-ramos;263;BOT;BOT;5;Atacante;5;Contundido;7;0;0;0;0
+39850;Vagner Carmo Mancini;Vagner Mancini;vagner-mancini;280;RBB;RBB;6;Técnico;7;Provável;5;0;0;0;0
+142877;Lucas Martín Villalba Jaume;Villalba;villalba;263;BOT;BOT;5;Atacante;6;Nulo;6;0;0;0;0
+94968;Luis Antônio da Rocha Júnior;Juninho Capixaba;juninho-capixaba;280;RBB;RBB;2;Lateral;7;Provável;9;0;0;0;0
+100695;Fernando dos Santos Pedro;Fernando;fernando;280;RBB;RBB;5;Atacante;6;Nulo;3;0;0;0;0
+78605;Gabriel Girotto Franco;Gabriel;gabriel;280;RBB;RBB;4;Meia;7;Provável;6;0;0;0;0
+93882;Cleiton Schwengber;Cleiton;cleiton;280;RBB;RBB;1;Goleiro;7;Provável;7;0;0;0;0
+107170;Jefferson Ruan Pereira dos Santos;Jeffinho;jeffinho;263;BOT;BOT;5;Atacante;6;Nulo;5;0;0;0;0
+142484;Jordan Andrés Barrera Herrera;Barrera;barrera;263;BOT;BOT;4;Meia;2;Dúvida;7;0;0;0;0
+143072;Gabriel da Silva Abdias;Gabriel Abdias;gabriel-abdias;263;BOT;BOT;2;Lateral;6;Nulo;3;0;0;0;0
+94067;Matheus Fernandes Siqueira;Matheus Fernandes;matheus-fernandes;280;RBB;RBB;4;Meia;6;Nulo;5;0;0;0;0
+87225;Pedro Henrique Ribeiro Gonçalves;Pedro Henrique;pedro-henrique;280;RBB;RBB;3;Zagueiro;6;Nulo;7;0;0;0;0
+100848;Luan Cândido de Almeida;Luan Cândido;luan-candido;287;VIT;VIT;2;Lateral;6;Nulo;5;0;0;0;0
+103295;Eric dos Santos Rodrigues;Eric Ramires;eric-ramires;280;RBB;RBB;4;Meia;7;Provável;5;0;0;0;0
+100842;Ruan Tressoldi Netto;Ruan;ruan;282;CAM;CAM;3;Zagueiro;7;Provável;6;0;0;0;0
+110715;José Andrés Hurtado Cheme;Andrés Hurtado;andres-hurtado;280;RBB;RBB;2;Lateral;7;Provável;4;0;0;0;0
+110750;Gustavo Marques Alves dos Santos;Gustavo Marques;gustavo-marques;280;RBB;RBB;3;Zagueiro;7;Provável;3;0;0;0;0
+106434;Eduardo Gonzaga Mendes Santos;Eduardo Santos;eduardo-santos;280;RBB;RBB;3;Zagueiro;6;Nulo;5;0;0;0;0
+104588;Fabrício Oliveira de Souza;Fabrício;fabricio;280;RBB;RBB;1;Goleiro;6;Nulo;2;0;0;0;0
+103014;Ignacio Jesús Laquintana Marsico - Nacho;Laquintana;laquintana;280;RBB;RBB;5;Atacante;6;Nulo;4;0;0;0;0
+112886;Lucas Henrique Barbosa;Lucas Barbosa;lucas-barbosa;280;RBB;RBB;5;Atacante;7;Provável;8;0;0;0;0
+105213;Ariel Agustín Sant'Anna Quintero;Sant Anna;sant-anna;280;RBB;RBB;2;Lateral;6;Nulo;4;0;0;0;0
+106160;Lucas Alexandre Galdino de Azevedo;Lucão;lucao;280;RBB;RBB;1;Goleiro;6;Nulo;4;0;0;0;0
+107236;Vanderlan Barbosa da Silva;Vanderlan;vanderlan;280;RBB;RBB;2;Lateral;5;Contundido;5;0;0;0;0
+108133;Isidro Miguel Pitta Saldívar;Isidro Pitta;isidro-pitta;280;RBB;RBB;5;Atacante;6;Nulo;7;0;0;0;0
+111246;Alix Vinicius de Souza Sampaio;Alix Vinicius;alix-vinicius;280;RBB;RBB;3;Zagueiro;7;Provável;6;0;0;0;0
+118175;Nathan Camargo dos Santos;Nathan Camargo;nathan-camargo;280;RBB;RBB;4;Meia;6;Nulo;2;0;0;0;0
+122897;Guzmán Rodríguez Ferrari;Guzmán Rodríguez;guzman-rodriguez;280;RBB;RBB;3;Zagueiro;6;Nulo;6;0;0;0;0
+124239;Henry David Mosquera Sánchez;Henry Mosquera;henry-mosquera;280;RBB;RBB;5;Atacante;7;Provável;4;0;0;0;0
+122755;Lucas de Souza Cunha;Lucas Cunha;lucas-cunha;280;RBB;RBB;3;Zagueiro;6;Nulo;3;0;0;0;0
+111760;Fábio Silva de Freitas;Fabinho;fabinho;280;RBB;RBB;4;Meia;6;Nulo;4;0;0;0;0
+122394;Gustavo Ribeiro Neves;Gustavinho;gustavinho;280;RBB;RBB;4;Meia;6;Nulo;4;0;0;0;0
+113157;Nathan Gabriel de Souza Mendes;Nathan Mendes;nathan-mendes;287;VIT;VIT;2;Lateral;6;Nulo;4;0;0;0;0
+138021;Sergio Stevan Palacios Zapata;Palacios;palacios;280;RBB;RBB;3;Zagueiro;6;Nulo;3;0;0;0;0
+68920;Eduardo Pereira Rodrigues;Dudu;dudu;282;CAM;CAM;5;Atacante;7;Provável;9;0;0;0;0
+39656;Alan Steven Franco Palma;Alan Franco;alan-franco;282;CAM;CAM;4;Meia;7;Provável;7;0;0;0;0
+140906;Davi Gomes de Alvarenga;Davi Gomes;davi-gomes;280;RBB;RBB;5;Atacante;6;Nulo;3;0;0;0;0
+132580;Vinicius Mendonça Pereira;Vinicinho;vinicinho;280;RBB;RBB;5;Atacante;6;Nulo;5;0;0;0;0
+72605;Vitor Hugo Franchescoli de Souza;Vitor Hugo;vitor-hugo;282;CAM;CAM;3;Zagueiro;6;Nulo;7;0;0;0;0
+132274;Ignacio Sosa Ospital;Ignacio Sosa;ignacio-sosa;280;RBB;RBB;4;Meia;6;Nulo;6;0;0;0;0
+100084;Igor Silveira Gomes;Igor Gomes;igor-gomes;282;CAM;CAM;4;Meia;7;Provável;8;0;0;0;0
+98909;Tomás Esteban Cuello;Cuello;cuello;282;CAM;CAM;5;Atacante;6;Nulo;7;0;0;0;0
+91607;Ronielson da Silva Barbosa;Rony;rony;282;CAM;CAM;5;Atacante;6;Nulo;8;0;0;0;0
+72460;Bernard Anício Caldeira Duarte;Bernard;bernard;282;CAM;CAM;4;Meia;7;Provável;6;0;0;0;0
+101002;José Antonio dos Santos Júnior;Júnior Santos;junior-santos;282;CAM;CAM;5;Atacante;6;Nulo;5;0;0;0;0
+101314;Ademir da Silva Santos Júnior;Ademir;ademir;265;BAH;BAH;5;Atacante;7;Provável;8;0;0;0;0
+88312;Júnior Osmar Ignacio Alonso Mujica;Junior Alonso;junior-alonso;282;CAM;CAM;3;Zagueiro;7;Provável;6;0;0;0;0
+87999;Gustavo Henrique Furtado Scarpa;Gustavo Scarpa;gustavo-scarpa;282;CAM;CAM;4;Meia;6;Nulo;10;0;0;0;0
+118774;Alexsander Cristhian Gomes da Costa - Christian;Alexsander;alexsander;282;CAM;CAM;4;Meia;6;Nulo;8;0;0;0;0
+110760;Gabriel Teixeira Aragão;Biel;biel;282;CAM;CAM;5;Atacante;6;Nulo;5;0;0;0;0
+42135;Willian Borges da Silva;Willian;willian;284;GRE;GRE;4;Meia;7;Provável;6;0;0;0;0
+107554;Natanael Moreira Milouski;Natanael;natanael;282;CAM;CAM;2;Lateral;6;Nulo;7;0;0;0;0
+92087;Lyanco Evangelista Silveira Neves Vojnovic;Lyanco;lyanco;282;CAM;CAM;3;Zagueiro;6;Nulo;9;0;0;0;0
+107744;Bruno Conceição Praxedes;Praxedes;praxedes;280;RBB;RBB;4;Meia;6;Nulo;4;0;0;0;0
+105068;Reinier Jesus Carvalho;Reinier;reinier;282;CAM;CAM;4;Meia;6;Nulo;4;0;0;0;0
+85048;Memphis Depay;Memphis Depay;memphis-depay;264;COR;COR;5;Atacante;7;Provável;17;0;0;0;0
+115674;Gabriel Delfim Ferreira;Gabriel Delfim;gabriel-delfim;282;CAM;CAM;1;Goleiro;6;Nulo;2;0;0;0;0
+122990;Patrick Roberto da Silva Campos;Patrick;patrick;282;CAM;CAM;4;Meia;6;Nulo;4;0;0;0;0
+77485;André Martín Carrillo Díaz;Carrillo;carrillo;264;COR;COR;4;Meia;7;Provável;7;0;0;0;0
+78248;Gustavo Henrique Vernes;Gustavo Henrique;gustavo-henrique;264;COR;COR;3;Zagueiro;7;Provável;10;0;0;0;0
+103767;Gabriel Vinícius Menino;Gabriel Menino;gabriel-menino;277;SAN;SAN;4;Meia;2;Dúvida;6;0;0;0;0
+95556;Raniele Almeida Melo;Raniele;raniele;264;COR;COR;4;Meia;6;Nulo;7;0;0;0;0
+40990;Dorival Silvestre Júnior;Dorival Júnior;dorival-junior;264;COR;COR;6;Técnico;7;Provável;11;0;0;0;0
+123359;Carlos Eduardo Amaral Pereira de Castro;Cadu;cadu;282;CAM;CAM;5;Atacante;6;Nulo;3;0;0;0;0
+98720;Fabrizio Germán Angileri - Fabricio;Angileri;angileri;264;COR;COR;2;Lateral;6;Nulo;4;0;0;0;0
+78435;Victor Vinícius Coelho dos Santos;Vitinho;vitinho;264;COR;COR;5;Atacante;6;Nulo;6;0;0;0;0
+124661;Ivan Ramiro Román Hurtado;Iván Román;ivan-roman;282;CAM;CAM;3;Zagueiro;6;Nulo;5;0;0;0;0
+98225;Pedro Raul Garay da Silva;Pedro Raul;pedro-raul;264;COR;COR;5;Atacante;6;Nulo;6;0;0;0;0
+105531;Matheus Lima Beltrão Oliveira Valin;Matheus Bidu;matheus-bidu;264;COR;COR;2;Lateral;7;Provável;9;0;0;0;0
+101574;Hugo de Souza Nogueira;Hugo Souza;hugo-souza;264;COR;COR;1;Goleiro;7;Provável;11;0;0;0;0
+96342;Charles Rigon Mattos;Charles;charles;264;COR;COR;4;Meia;6;Nulo;4;0;0;0;0
+107908;Hugo Ferreira de Farias;Hugo;hugo;264;COR;COR;2;Lateral;6;Nulo;4;0;0;0;0
+102340;Carlos de Menezes Júnior;Cacá;caca;264;COR;COR;3;Zagueiro;5;Contundido;5;0;0;0;0
+92440;André Ramalho Silva;André Ramalho;andre-ramalho;264;COR;COR;3;Zagueiro;6;Nulo;6;0;0;0;0
+97642;Félix Eduardo Torres Caicedo;Félix Torres;felix-torres;285;INT;INT;3;Zagueiro;6;Nulo;4;0;0;0;0
+121824;Kayke Ferrari Guimarães;Kayke;kayke;264;COR;COR;5;Atacante;6;Nulo;4;0;0;0;0
+72018;Tiago Luis Volpi;Tiago Volpi;tiago-volpi;284;GRE;GRE;1;Goleiro;6;Nulo;8;0;0;0;0
+110311;José Andrés Martínez Torres;José Martínez;jose-martinez;264;COR;COR;4;Meia;6;Nulo;6;0;0;0;0
+127242;Luiz Gustavo Lemos Carvalho;Bahia;bahia;264;COR;COR;4;Meia;6;Nulo;2;0;0;0;0
+107179;Matheus Planelles Donelli;Matheus Donelli;matheus-donelli;264;COR;COR;1;Goleiro;6;Nulo;3;0;0;0;0
+117632;Rodrigo Garro;Garro;garro;264;COR;COR;4;Meia;6;Nulo;12;0;0;0;0
+145744;André Luiz Santos Dias;André;andre;264;COR;COR;4;Meia;7;Provável;4;0;0;0;0
+125488;João Pedro de Sousa Rodrigues - Tchoca;João Pedro;joao-pedro;264;COR;COR;3;Zagueiro;6;Nulo;5;0;0;0;0
+89275;Willian de Asevedo Furtado;William;william;283;CRU;CRU;2;Lateral;7;Provável;12;0;0;0;0
+84558;Lucas Daniel Romero;Lucas Romero;lucas-romero;283;CRU;CRU;4;Meia;7;Provável;10;0;0;0;0
+79701;Lucas Silva Borges;Lucas Silva;lucas-silva;283;CRU;CRU;4;Meia;7;Provável;9;0;0;0;0
+122396;Ryan Gustavo de Lima;Ryan;ryan;264;COR;COR;4;Meia;6;Nulo;3;0;0;0;0
+88479;Walace Souza Silva;Walace;walace;283;CRU;CRU;4;Meia;6;Nulo;4;0;0;0;0
+131753;Felipe Longo Fernandes da Silva;Felipe Longo;felipe-longo;264;COR;COR;1;Goleiro;6;Nulo;2;0;0;0;0
+45125;Adenor Leonardo Bachi;Tite;tite;283;CRU;CRU;6;Técnico;7;Provável;12;0;0;0;0
+133543;Guilherme William Silva Inácio;Gui Negão;gui-negao;264;COR;COR;5;Atacante;6;Nulo;5;0;0;0;0
+42500;Fagner Conserva Lemos;Fagner;fagner;283;CRU;CRU;2;Lateral;6;Nulo;7;0;0;0;0
+96610;Matheus Fellipe Costa Pereira;Matheus Pereira;matheus-pereira;283;CRU;CRU;4;Meia;7;Provável;20;0;0;0;0
+141995;Diego da Cruz Lopes;Dieguinho;dieguinho;264;COR;COR;4;Meia;6;Nulo;4;0;0;0;0
+111690;Matheus Cunha Queiroz;Matheus Cunha;matheus-cunha;283;CRU;CRU;1;Goleiro;5;Contundido;3;0;0;0;0
+114405;Luis Fernando Sinisterra Lucumí;Sinisterra;sinisterra;283;CRU;CRU;5;Atacante;6;Nulo;6;0;0;0;0
+100742;Matheus Henrique de Souza;Matheus Henrique;matheus-henrique;283;CRU;CRU;4;Meia;6;Nulo;8;0;0;0;0
+124912;Jonathan de Jesus Alves;Jonathan Jesus;jonathan-jesus;283;CRU;CRU;3;Zagueiro;2;Dúvida;6;0;0;0;0
+93478;Wanderson Maciel Sousa Campos;Wanderson;wanderson;283;CRU;CRU;5;Atacante;2;Dúvida;6;0;0;0;0
+139345;Kauã Prates de Almeida;Kauã Prates;kaua-prates;283;CRU;CRU;2;Lateral;6;Nulo;4;0;0;0;0
+132264;Keny Alexander Arroyo Alvarado;Arroyo;arroyo;283;CRU;CRU;5;Atacante;2;Dúvida;7;0;0;0;0
+113158;Marcus Vinícius Oliveira Alencar;Marquinhos;marquinhos;283;CRU;CRU;5;Atacante;6;Nulo;4;0;0;0;0
+105047;João Marcelo Messias Ferreira;João Marcelo;joao-marcelo;283;CRU;CRU;3;Zagueiro;6;Nulo;5;0;0;0;0
+146807;Rayan Passaglia Lelis;Rayan Lelis;rayan-lelis;283;CRU;CRU;5;Atacante;6;Nulo;2;0;0;0;0
+143600;Kauã Moraes Silva;Kauã Moraes;kaua-moraes;283;CRU;CRU;2;Lateral;6;Nulo;3;0;0;0;0
+131967;Neyser Villarreal - Neiser;Villarreal;villarreal;283;CRU;CRU;5;Atacante;6;Nulo;5;0;0;0;0
+92854;Rafael Santos Borré Maury;Borré;borre;285;INT;INT;5;Atacante;7;Provável;8;0;0;0;0
+83528;Leonardo Pereira;Léo Pereira;leo-pereira;262;FLA;FLA;3;Zagueiro;7;Provável;13;0;0;0;0
+84816;Guillermo Varela Olivera;Varela;varela;262;FLA;FLA;2;Lateral;7;Provável;7;0;0;0;0
+137542;Kaique Kenji Takamura Correa;Kaique Kenji;kaique-kenji;283;CRU;CRU;5;Atacante;6;Nulo;3;0;0;0;0
+143350;Murilo Rhikman Alves Pimentel;Murilo Rhikman;murilo-rhikman;283;CRU;CRU;4;Meia;6;Nulo;3;0;0;0;0
+137543;Tevis Gabriel Alves Santos;Tevis;tevis;283;CRU;CRU;5;Atacante;6;Nulo;2;0;0;0;0
+69783;Danilo Luiz da Silva;Danilo;danilo;262;FLA;FLA;3;Zagueiro;6;Nulo;8;0;0;0;0
+111757;Ryan Guilherme da Silva Pae;Ryan Guilherme;ryan-guilherme;283;CRU;CRU;4;Meia;6;Nulo;2;0;0;0;0
+117404;Otávio Eleodoro Rezende Costa;Otávio;otavio;283;CRU;CRU;1;Goleiro;6;Nulo;2;0;0;0;0
+122660;João Wellington Gadelha Melo de Oliveira;Japa;japa;283;CRU;CRU;4;Meia;6;Nulo;3;0;0;0;0
+80061;Saúl Ñíguez Esclapez;Saúl;saul;262;FLA;FLA;4;Meia;5;Contundido;7;0;0;0;0
+91473;Erick Antonio Pulgar Farfán;Erick Pulgar;erick-pulgar;262;FLA;FLA;4;Meia;7;Provável;10;0;0;0;0
+86757;Everton Sousa Soares;Everton;everton;262;FLA;FLA;5;Atacante;6;Nulo;9;0;0;0;0
+90285;Bruno Henrique Pinto;Bruno Henrique;bruno-henrique;262;FLA;FLA;5;Atacante;6;Nulo;9;0;0;0;0
+82627;Luiz de Araújo Guimarães Neto;Luiz Araújo;luiz-araujo;262;FLA;FLA;5;Atacante;6;Nulo;10;0;0;0;0
+98873;Samuel Dias Lino;Samuel Lino;samuel-lino;262;FLA;FLA;5;Atacante;6;Nulo;9;0;0;0;0
+84735;Jorge Luiz Frello Filho;Jorginho;jorginho;262;FLA;FLA;4;Meia;7;Provável;15;0;0;0;0
+109096;Gonzalo Jordy Plata Jiménez;Plata;plata;262;FLA;FLA;5;Atacante;7;Provável;7;0;0;0;0
+96870;Emerson Aparecido Leite de Souza Júnior;Emerson Royal;emerson-royal;262;FLA;FLA;2;Lateral;6;Nulo;5;0;0;0;0
+87863;Giorgian Daniel de Arrascaeta Benedetti;Arrascaeta;arrascaeta;262;FLA;FLA;4;Meia;7;Provável;23;0;0;0;0
+88393;Ayrton Lucas Dantas de Medeiros;Ayrton Lucas;ayrton-lucas;262;FLA;FLA;2;Lateral;6;Nulo;8;0;0;0;0
+96652;Allan Rodrigues de Souza;Allan;allan;262;FLA;FLA;4;Meia;6;Nulo;5;0;0;0;0
+97867;Leonardo Rech Ortiz;Léo Ortiz;leo-ortiz;262;FLA;FLA;3;Zagueiro;7;Provável;12;0;0;0;0
+99392;Michael Richard Delgado de Oliveira;Michael;michael;262;FLA;FLA;5;Atacante;6;Nulo;5;0;0;0;0
+115914;Everton Gustavo Fernandes Araújo;Evertton Araújo;evertton-araujo;262;FLA;FLA;4;Meia;6;Nulo;4;0;0;0;0
+99228;Diego Nicolás de la Cruz Arcosa;De la Cruz;de-la-cruz;262;FLA;FLA;4;Meia;6;Nulo;8;0;0;0;0
+122318;Francisco Dyogo Bento Alves;Dyogo Alves;dyogo-alves;262;FLA;FLA;1;Goleiro;6;Nulo;3;0;0;0;0
+130189;Leonardo Nannetti Lopes;Léo Nannetti;leo-nannetti;262;FLA;FLA;1;Goleiro;6;Nulo;2;0;0;0;0
+122320;Daniel dos Santos Salles;Daniel Sales;daniel-sales;262;FLA;FLA;2;Lateral;6;Nulo;2;0;0;0;0
+139076;Filipe Luís Kasmirski;Filipe Luís;filipe-luis;262;FLA;FLA;6;Técnico;7;Provável;12;0;0;0;0
+87342;Walter Kannemann;Kannemann;kannemann;284;GRE;GRE;3;Zagueiro;5;Contundido;5;0;0;0;0
+118090;Iago Teodoro da Silva Nogueira;Iago;iago;262;FLA;FLA;3;Zagueiro;6;Nulo;2;0;0;0;0
+62977;Paulo Henrique Chagas de Lima;Ganso;ganso;266;FLU;FLU;4;Meia;6;Nulo;7;0;0;0;0
+140303;João Pedro do Nascimento da Mata;Da Mata;da-mata;262;FLA;FLA;3;Zagueiro;6;Nulo;2;0;0;0;0
+145705;Douglas Costa Telles;Douglas Telles;douglas-telles;262;FLA;FLA;5;Atacante;6;Nulo;2;0;0;0;0
+122573;Wallace Yan de Souza Barreto;Wallace Yan;wallace-yan;262;FLA;FLA;5;Atacante;6;Nulo;5;0;0;0;0
+73384;Samuel Xavier Brito;Samuel Xavier;samuel-xavier;266;FLU;FLU;2;Lateral;7;Provável;9;0;0;0;0
+143295;Caio Joshua Lana de Andrade;Joshua;joshua;262;FLA;FLA;4;Meia;6;Nulo;3;0;0;0;0
+78445;Renê Rodrigues Martins;Renê;rene;266;FLU;FLU;2;Lateral;6;Nulo;6;0;0;0;0
+82463;Otávio Henrique Passos Santos;Otávio;otavio;266;FLU;FLU;4;Meia;6;Nulo;4;0;0;0;0
+130382;Guilherme Henrique Bernardineli Gomes;Guilherme Gomes;guilherme-gomes;262;FLA;FLA;4;Meia;6;Nulo;3;0;0;0;0
+86485;Marcos da Silva França;Keno;keno;266;FLU;FLU;5;Atacante;6;Nulo;6;0;0;0;0
+78117;Everaldo Stum;Everaldo;everaldo;266;FLU;FLU;5;Atacante;7;Provável;5;0;0;0;0
+79631;Germán Ezequiel Cano;Cano;cano;266;FLU;FLU;5;Atacante;5;Contundido;6;0;0;0;0
+87258;Yeferson Julio Soteldo Martínez;Soteldo;soteldo;266;FLU;FLU;5;Atacante;5;Contundido;6;0;0;0;0
+78855;Thiago dos Santos;Thiago Santos;thiago-santos;294;CFC;CFC;3;Zagueiro;6;Nulo;3;0;0;0;0
+102928;Agustín Canobbio Graviz;Canobbio;canobbio;266;FLU;FLU;5;Atacante;7;Provável;8;0;0;0;0
+87228;Guilherme Antonio Arana Lopes;Guilherme Arana;guilherme-arana;266;FLU;FLU;2;Lateral;7;Provável;10;0;0;0;0
+101319;Cláudio Rodrigues Gomes;Guga;guga;266;FLU;FLU;2;Lateral;6;Nulo;6;0;0;0;0
+100987;Gustavo Nonato Santana;Nonato;nonato;266;FLU;FLU;4;Meia;2;Dúvida;6;0;0;0;0
+89493;Igor Rabello da Costa;Igor Rabello;igor-rabello;266;FLU;FLU;3;Zagueiro;6;Nulo;5;0;0;0;0
+113034;Juan Pablo Freytes;Freytes;freytes;266;FLU;FLU;3;Zagueiro;7;Provável;5;0;0;0;0
+103523;Ignácio da Silva Oliveira;Ignácio;ignacio;266;FLU;FLU;3;Zagueiro;6;Nulo;6;0;0;0;0
+101478;Marcelo de Araújo Pitaluga Filho;Marcelo Pitaluga;marcelo-pitaluga;266;FLU;FLU;1;Goleiro;6;Nulo;3;0;0;0;0
+96340;Vinícius Moreira de Lima;Lima;lima;266;FLU;FLU;4;Meia;6;Nulo;6;0;0;0;0
+103672;Gabriel Rafael Fuentes Gómez;Gabriel Fuentes;gabriel-fuentes;266;FLU;FLU;2;Lateral;6;Nulo;4;0;0;0;0
+102137;Vitor Eudes de Souza Costa;Vitor Eudes;vitor-eudes;266;FLU;FLU;1;Goleiro;6;Nulo;2;0;0;0;0
+99366;Luis Francisco Zubeldía;Luis Zubeldía;luis-zubeldia;266;FLU;FLU;6;Técnico;7;Provável;9;0;0;0;0
+110759;John Kennedy Batista de Souza;John Kennedy;john-kennedy;266;FLU;FLU;5;Atacante;6;Nulo;6;0;0;0;0
+104075;José Sabino Chagas Monteiro;Sabino;sabino;276;SAO;SAO;3;Zagueiro;7;Provável;5;0;0;0;0
+132071;Kevin Steven Serna Jaramillo;Serna;serna;266;FLU;FLU;5;Atacante;7;Provável;9;0;0;0;0
+108474;Santiago Moreno;Santi Moreno;santi-moreno;266;FLU;FLU;5;Atacante;6;Nulo;4;0;0;0;0
+115915;Leanderson da Silva Genésio;Lelê;lele;266;FLU;FLU;5;Atacante;6;Nulo;3;0;0;0;0
+105807;Luan de Freitas Molarinho Chagas;Luan Freitas;luan-freitas;266;FLU;FLU;3;Zagueiro;6;Nulo;3;0;0;0;0
+123788;Rubén Darío Lezcano Portillo;Lezcano;lezcano;266;FLU;FLU;4;Meia;6;Nulo;4;0;0;0;0
+117910;Breno de Souza Bidon;Breno Bidon;breno-bidon;264;COR;COR;4;Meia;7;Provável;10;0;0;0;0
+116447;Hércules Pereira do Nascimento;Hércules;hercules;266;FLU;FLU;4;Meia;2;Dúvida;7;0;0;0;0
+63013;Marcos Luis Rocha Aquino;Marcos Rocha;marcos-rocha;284;GRE;GRE;2;Lateral;7;Provável;9;0;0;0;0
+140484;Riquelme Felipe Silva de Almeida;Riquelme Felipe;riquelme-felipe;266;FLU;FLU;5;Atacante;6;Nulo;4;0;0;0;0
+127932;Julio Cesar Lima Fidelis;Julio Fidélis;julio-fidelis;266;FLU;FLU;2;Lateral;6;Nulo;2;0;0;0;0
+130650;Facundo Bernal Cruz;Bernal;bernal;266;FLU;FLU;4;Meia;6;Nulo;5;0;0;0;0
+140492;João Victor de Souza Cunha;João Victor;joao-victor;262;FLA;FLA;3;Zagueiro;6;Nulo;2;0;0;0;0
+88037;Luís Manuel Ribeiro de Castro;Luís Castro;luis-castro;284;GRE;GRE;6;Técnico;7;Provável;10;0;0;0;0
+87887;Fabián Cornelio Balbuena González;Balbuena;balbuena;284;GRE;GRE;3;Zagueiro;6;Nulo;7;0;0;0;0
+71709;Gustavo Leonardo Cuellar Gallego;Cuéllar;cuellar;284;GRE;GRE;4;Meia;6;Nulo;5;0;0;0;0
+63289;Edenílson Andrade dos Santos;Edenílson;edenilson;284;GRE;GRE;4;Meia;7;Provável;7;0;0;0;0
+89273;João Pedro Maturano dos Santos;João Pedro;joao-pedro;284;GRE;GRE;2;Lateral;6;Nulo;5;0;0;0;0
+89846;Franco Cristaldo;Cristaldo;cristaldo;284;GRE;GRE;4;Meia;6;Nulo;6;0;0;0;0
+89883;Douglas Moreira Fagundes;Dodi;dodi;284;GRE;GRE;4;Meia;6;Nulo;6;0;0;0;0
+91706;Marlon Rodrigues Xavier;Marlon;marlon;284;GRE;GRE;2;Lateral;7;Provável;8;0;0;0;0
+90532;Arthur Henrique Ramos de Oliveira Melo;Arthur Melo;arthur-melo;284;GRE;GRE;4;Meia;7;Provável;10;0;0;0;0
+91908;Cristian David Pavón;Pavón;pavon;284;GRE;GRE;5;Atacante;5;Contundido;6;0;0;0;0
+102318;Caio Fernando de Oliveira;Caio Paulista;caio-paulista;284;GRE;GRE;2;Lateral;6;Nulo;5;0;0;0;0
+100846;Lucas Esteves Souza;Lucas Esteves;lucas-esteves;284;GRE;GRE;2;Lateral;6;Nulo;4;0;0;0;0
+92237;Rodrigo Ely;Rodrigo Ely;rodrigo-ely;284;GRE;GRE;3;Zagueiro;6;Nulo;4;0;0;0;0
+108588;Gonzalo Andrés Tapia Dubournais;Tapia;tapia;276;SAO;SAO;5;Atacante;2;Dúvida;6;0;0;0;0
+105563;Carlos Vinícius Alves Morais;Carlos Vinícius;carlos-vinicius;284;GRE;GRE;5;Atacante;7;Provável;17;0;0;0;0
+109966;Miguel Ángel Monsalve Gonzáles - González;Monsalve;monsalve;284;GRE;GRE;4;Meia;6;Nulo;5;0;0;0;0
+112616;Gabriel Hamester Grando;Gabriel Grando;gabriel-grando;284;GRE;GRE;1;Goleiro;6;Nulo;4;0;0;0;0
+97145;Mathías Adalberto Villasanti Rolón;Villasanti;villasanti;284;GRE;GRE;4;Meia;6;Nulo;7;0;0;0;0
+108548;Alexander Ernesto Aravena Guzmán;Aravena;aravena;284;GRE;GRE;5;Atacante;6;Nulo;4;0;0;0;0
+104994;Wagner Leonardo Calvelo de Souza;Wagner Leonardo;wagner-leonardo;284;GRE;GRE;3;Zagueiro;6;Nulo;6;0;0;0;0
+92182;José Carlos Ferreira Júnior;Juninho;juninho;285;INT;INT;3;Zagueiro;7;Provável;5;0;0;0;0
+118238;Ronald Cardoso Falkoski;Ronald;ronald;284;GRE;GRE;4;Meia;6;Nulo;3;0;0;0;0
+121792;André Henrique da Silva Martins;André;andre;284;GRE;GRE;5;Atacante;6;Nulo;4;0;0;0;0
+72951;Gabriel Iván Mercado;Mercado;mercado;285;INT;INT;3;Zagueiro;7;Provável;5;0;0;0;0
+116067;Thiago Beltrame Stallbaum;Thiago Beltrame;thiago-beltrame;284;GRE;GRE;1;Goleiro;6;Nulo;2;0;0;0;0
+70944;Bruno Henrique Corsini;Bruno Henrique;bruno-henrique;285;INT;INT;4;Meia;6;Nulo;6;0;0;0;0
+130889;Riquelme Freitas dos Santos;Riquelme;riquelme;284;GRE;GRE;4;Meia;6;Nulo;4;0;0;0;0
+142004;Francis Amuzu;Amuzu;amuzu;284;GRE;GRE;5;Atacante;7;Provável;6;0;0;0;0
+107989;Johan Stiven Carbonero Balanta;Carbonero;carbonero;285;INT;INT;5;Atacante;7;Provável;9;0;0;0;0
+110510;Braian Aguirre Nahuel;Aguirre;aguirre;285;INT;INT;2;Lateral;7;Provável;5;0;0;0;0
+88136;Ivan Quaresma da Silva;Ivan;ivan;285;INT;INT;1;Goleiro;6;Nulo;4;0;0;0;0
+89637;Thiago Maia Alencar;Thiago Maia;thiago-maia;285;INT;INT;4;Meia;7;Provável;6;0;0;0;0
+125467;Viery Fernandes Santos Lopes;Viery;viery;284;GRE;GRE;3;Zagueiro;6;Nulo;3;0;0;0;0
+92981;Ronaldo da Silva Souza Guerrero;Ronaldo;ronaldo;285;INT;INT;4;Meia;6;Nulo;3;0;0;0;0
+83251;Alan Max Benítez Domínguez;Alan Benítez;alan-benitez;285;INT;INT;2;Lateral;6;Nulo;4;0;0;0;0
+115479;Paulo César Pezzolano Suárez;Paulo Pezzolano;paulo-pezzolano;285;INT;INT;6;Técnico;7;Provável;6;0;0;0;0
+106202;Bruno Gomes da Silva Clevelário;Bruno Gomes;bruno-gomes;285;INT;INT;4;Meia;7;Provável;6;0;0;0;0
+101960;Vitor Hugo Naum dos Santos;Vitinho;vitinho;285;INT;INT;5;Atacante;7;Provável;7;0;0;0;0
+86711;Richard Cândido Coelho;Richard;richard;285;INT;INT;4;Meia;6;Nulo;4;0;0;0;0
+111466;Victor Gabriel da Conceição Ribeiro;Victor Gabriel;victor-gabriel;285;INT;INT;3;Zagueiro;6;Nulo;4;0;0;0;0
+107174;Bruno Vinícius Souza Ramos;Bruno Tabata;bruno-tabata;285;INT;INT;4;Meia;6;Nulo;5;0;0;0;0
+93790;Marlon Rodrigues Freitas;Marlon Freitas;marlon-freitas;275;PAL;PAL;4;Meia;7;Provável;9;0;0;0;0
+124271;Gustavo Prado Alves;Gustavo Prado;gustavo-prado;285;INT;INT;4;Meia;6;Nulo;4;0;0;0;0
+123744;Alan Jesús Rodríguez Guaglianoni;Alan Rodríguez;alan-rodriguez;285;INT;INT;4;Meia;5;Contundido;6;0;0;0;0
+137618;Clayton Sampaio Pereira;Clayton Sampaio;clayton-sampaio;285;INT;INT;3;Zagueiro;6;Nulo;3;0;0;0;0
+111683;Anthoni Spier Souza;Anthoni;anthoni;285;INT;INT;1;Goleiro;6;Nulo;3;0;0;0;0
+94509;Raphael Cavalcante Veiga;Raphael Veiga;raphael-veiga;275;PAL;PAL;4;Meia;7;Provável;11;0;0;0;0
+68872;Marcelo Lomba do Nascimento;Marcelo Lomba;marcelo-lomba;275;PAL;PAL;1;Goleiro;6;Nulo;4;0;0;0;0
+71684;Gustavo Raúl Gómez Portillo;Gustavo Gómez;gustavo-gomez;275;PAL;PAL;3;Zagueiro;7;Provável;13;0;0;0;0
+70592;Felipe Anderson Pereira Gomes;Felipe Anderson;felipe-anderson;275;PAL;PAL;4;Meia;6;Nulo;9;0;0;0;0
+143488;Raykkonen Pereira Soares;Raykkonen;raykkonen;285;INT;INT;5;Atacante;6;Nulo;3;0;0;0;0
+84674;Lucas Evangelista Santana de Oliveira;Lucas Evangelista;lucas-evangelista;275;PAL;PAL;4;Meia;6;Nulo;7;0;0;0;0
+102950;Facundo Daniel Torres Pérez;Facundo Torres;facundo-torres;275;PAL;PAL;4;Meia;5;Contundido;6;0;0;0;0
+71631;Weverton Pereira da Silva;Weverton;weverton;284;GRE;GRE;1;Goleiro;7;Provável;9;0;0;0;0
+105647;Maurício Magalhães Prado;Maurício;mauricio;275;PAL;PAL;4;Meia;2;Dúvida;8;0;0;0;0
+104085;Bruno de Lara Fuchs;Bruno Fuchs;bruno-fuchs;275;PAL;PAL;3;Zagueiro;7;Provável;8;0;0;0;0
+102130;Joaquín Piquerez Moreira;Piquerez;piquerez;275;PAL;PAL;2;Lateral;7;Provável;10;0;0;0;0
+99818;Paulo Henrique Sampaio Filho;Paulinho;paulinho;275;PAL;PAL;5;Atacante;6;Nulo;15;0;0;0;0
+92811;Bruno Rafael Rodrigues do Nascimento;Bruno Rodrigues;bruno-rodrigues;275;PAL;PAL;5;Atacante;6;Nulo;4;0;0;0;0
+97653;Murilo Cerqueira Paim;Murilo;murilo;275;PAL;PAL;3;Zagueiro;6;Nulo;7;0;0;0;0
+108683;Emiliano Martínez Toranza;Emiliano Martínez;emiliano-martinez;275;PAL;PAL;4;Meia;6;Nulo;5;0;0;0;0
+113103;José Manuel Alberto López;Flaco López;flaco-lopez;275;PAL;PAL;5;Atacante;7;Provável;16;0;0;0;0
+110506;Abel Fernando Moreira Ferreira;Abel Ferreira;abel-ferreira;275;PAL;PAL;6;Técnico;7;Provável;12;0;0;0;0
+112863;Ramón Sosa Acosta;Ramón Sosa;ramon-sosa;275;PAL;PAL;5;Atacante;6;Nulo;7;0;0;0;0
+130612;Luighi Hanri Sousa Santos;Luighi;luighi;275;PAL;PAL;5;Atacante;6;Nulo;4;0;0;0;0
+111832;Jefté Vital da Silva Dias;Jefté;jefte;275;PAL;PAL;2;Lateral;6;Nulo;4;0;0;0;0
+73318;Daniel Fortunato Borges;Daniel Borges;daniel-borges;2305;MIR;MIR;2;Lateral;7;Provável;4;0;0;0;0
+104084;Carlos Miguel dos Santos Pereira;Carlos Miguel;carlos-miguel;275;PAL;PAL;1;Goleiro;7;Provável;9;0;0;0;0
+124526;Agustín Giay;Giay;giay;275;PAL;PAL;2;Lateral;6;Nulo;7;0;0;0;0
+105175;Khellven Douglas Silva Oliveira;Khellven;khellven;275;PAL;PAL;2;Lateral;7;Provável;7;0;0;0;0
+97321;Alesson dos Santos Batista;Alesson;alesson;2305;MIR;MIR;5;Atacante;7;Provável;7;0;0;0;0
+72279;Carlos Eduardo Lecciolle Thomazella;Thomazella;thomazella;2305;MIR;MIR;1;Goleiro;6;Nulo;2;0;0;0;0
+79066;Alex Roberto Santana Rafael;Alex Muralha;alex-muralha;2305;MIR;MIR;1;Goleiro;6;Nulo;3;0;0;0;0
+141451;Allan Andrade Elias;Allan;allan;275;PAL;PAL;4;Meia;7;Provável;16;0;0;0;0
+97460;João Victor Carroll Santana;João Victor;joao-victor;2305;MIR;MIR;3;Zagueiro;7;Provável;6;0;0;0;0
+133679;Luiz Gustavo Roncholeta Benedetti;Benedetti;benedetti;275;PAL;PAL;3;Zagueiro;6;Nulo;3;0;0;0;0
+136156;Larson Torna Ferreira dos Santos;Larson;larson;275;PAL;PAL;4;Meia;6;Nulo;3;0;0;0;0
+81005;André Luis Silva de Aguiar;André Luis;andre-luis;2305;MIR;MIR;5;Atacante;7;Provável;5;0;0;0;0
+113359;Pablo Gonçalves Maia Fortunato;Pablo Maia;pablo-maia;276;SAO;SAO;4;Meia;6;Nulo;7;0;0;0;0
+90917;Carlos Eduardo Ferreira de Souza;Carlos Eduardo;carlos-eduardo;2305;MIR;MIR;5;Atacante;6;Nulo;5;0;0;0;0
+83263;Yuri Lima Lara;Yuri Lara;yuri-lara;2305;MIR;MIR;4;Meia;7;Provável;5;0;0;0;0
+104027;Rafael Silva Guanaes;Rafael Guanaes;rafael-guanaes;2305;MIR;MIR;6;Técnico;7;Provável;6;0;0;0;0
+82775;Lucas Ramon Batista Silva;Lucas Ramon;lucas-ramon;2305;MIR;MIR;2;Lateral;6;Nulo;7;0;0;0;0
+97520;Shaylon Kallyson Cardozo - Cardoso;Shaylon;shaylon;2305;MIR;MIR;4;Meia;7;Provável;5;0;0;0;0
+102667;Nathan Uiliam Fogaça - Uilian;Nathan Fogaça;nathan-fogaca;2305;MIR;MIR;5;Atacante;6;Nulo;4;0;0;0;0
+87742;Antônio Francisco Moura Neto;Neto Moura;neto-moura;2305;MIR;MIR;4;Meia;7;Provável;5;0;0;0;0
+77777;João Felipe Schmidt Urbano;João Schmidt;joao-schmidt;277;SAN;SAN;4;Meia;7;Provável;6;0;0;0;0
+104204;Edson Guilherme Mendes dos Santos;Edson Carioca;edson-carioca;2305;MIR;MIR;5;Atacante;5;Contundido;5;0;0;0;0
+83257;Gabriel Barbosa Almeida;Gabriel;gabriel;277;SAN;SAN;5;Atacante;7;Provável;9;0;0;0;0
+117403;Renato Marques de Oliveira Júnior;Renato Marques;renato-marques;2305;MIR;MIR;5;Atacante;6;Nulo;4;0;0;0;0
+98384;Luiz Henrique Soares Firmino;Negueba;negueba;2305;MIR;MIR;5;Atacante;6;Nulo;6;0;0;0;0
+101708;Felipe Jonatan Rocha Andrade;Felipe Jonatan;felipe-jonatan;2305;MIR;MIR;2;Lateral;6;Nulo;5;0;0;0;0
+74187;Tomás Eduardo Rincón Hernández;Rincón;rincon;277;SAN;SAN;4;Meia;6;Nulo;4;0;0;0;0
+81150;Mayke Rocha de Oliveira;Mayke;mayke;277;SAN;SAN;2;Lateral;6;Nulo;5;0;0;0;0
+93372;João Othávio Basso;João Basso;joao-basso;277;SAN;SAN;3;Zagueiro;6;Nulo;4;0;0;0;0
+91866;José Ivaldo Almeida Silva;Zé Ivaldo;ze-ivaldo;277;SAN;SAN;3;Zagueiro;7;Provável;6;0;0;0;0
+95466;Igor Vinícius de Souza;Igor Vinícius;igor-vinicius;277;SAN;SAN;2;Lateral;7;Provável;7;0;0;0;0
+105903;José Aldo Soares de Oliveira Filho;Aldo Filho;aldo-filho;2305;MIR;MIR;4;Meia;6;Nulo;5;0;0;0;0
+82455;José Rafael Vivian;Zé Rafael;ze-rafael;277;SAN;SAN;4;Meia;2;Dúvida;7;0;0;0;0
+84042;Francisco das Chagas Soares dos Santos Meireles;Tiquinho Soares;tiquinho-soares;277;SAN;SAN;5;Atacante;5;Contundido;7;0;0;0;0
+78478;Willian Souza Arão da Silva;Willian Arão;willian-arao;277;SAN;SAN;4;Meia;7;Provável;7;0;0;0;0
+104754;Juan Pablo Vojvoda Rizzo;Juan Vojvoda;juan-vojvoda;277;SAN;SAN;6;Técnico;7;Provável;8;0;0;0;0
+130811;João Victor de Souza Menezes;Souza;souza;277;SAN;SAN;2;Lateral;6;Nulo;8;0;0;0;0
+84847;Luan Peres Petroni;Luan Peres;luan-peres;277;SAN;SAN;3;Zagueiro;6;Nulo;6;0;0;0;0
+141754;Gabriel Morais Silva Bontempo;Gabriel Bontempo;gabriel-bontempo;277;SAN;SAN;4;Meia;5;Contundido;5;0;0;0;0
+102256;Benjamín Rollheiser;Rollheiser;rollheiser;277;SAN;SAN;4;Meia;7;Provável;9;0;0;0;0
+118775;Lautaro Ariel Díaz;Lautaro Díaz;lautaro-diaz;277;SAN;SAN;5;Atacante;6;Nulo;6;0;0;0;0
+141868;Vinicius Rodrigues Lira;Vinicius Lira;vinicius-lira;277;SAN;SAN;2;Lateral;7;Provável;3;0;0;0;0
+87470;Thaciano Mickael da Silva;Thaciano;thaciano;277;SAN;SAN;4;Meia;6;Nulo;6;0;0;0;0
+113690;Diógenes Vinícius da Silva;Diógenes;diogenes;277;SAN;SAN;1;Goleiro;6;Nulo;2;0;0;0;0
+105114;Alexis David Duarte Pereira;Alexis Duarte;alexis-duarte;277;SAN;SAN;3;Zagueiro;6;Nulo;5;0;0;0;0
+102975;Gonzalo Daniel Escobar;Escobar;escobar;277;SAN;SAN;2;Lateral;6;Nulo;6;0;0;0;0
+108469;Adonis Uriel Frías;Adonis Frías;adonis-frias;277;SAN;SAN;3;Zagueiro;7;Provável;6;0;0;0;0
+85403;Daniel de Oliveira Sertanejo;Danielzinho;danielzinho;276;SAO;SAO;4;Meia;7;Provável;7;0;0;0;0
+142867;Robson de Souza Júnior;Robinho Jr.;robinho-jr;277;SAN;SAN;5;Atacante;6;Nulo;4;0;0;0;0
+101290;Aldemir dos Santos Ferreira;Ferreira;ferreira;276;SAO;SAO;5;Atacante;7;Provável;8;0;0;0;0
+89840;Jonathan Calleri;Calleri;calleri;276;SAO;SAO;5;Atacante;6;Nulo;14;0;0;0;0
+63008;Rafael Toloi;Rafael Tolói;rafael-toloi;276;SAO;SAO;3;Zagueiro;7;Provável;5;0;0;0;0
+99889;Alan Javier Franco;Alan Franco;alan-franco;276;SAO;SAO;3;Zagueiro;6;Nulo;7;0;0;0;0
+81845;Alisson Euler de Freitas Castro;Alisson;alisson;276;SAO;SAO;4;Meia;6;Nulo;6;0;0;0;0
+70164;Lucas Rodrigues Moura da Silva;Lucas Moura;lucas-moura;276;SAO;SAO;4;Meia;7;Provável;12;0;0;0;0
+77656;Cédric Ricardo Alves Soares;Cédric Soares;cedric-soares;276;SAO;SAO;2;Lateral;7;Provável;6;0;0;0;0
+111309;Gustavo Martins de Souza Santos;Gustavo Martins;gustavo-martins;284;GRE;GRE;3;Zagueiro;7;Provável;6;0;0;0;0
+91573;Robert Abel Arboleda Escobar;Arboleda;arboleda;276;SAO;SAO;3;Zagueiro;7;Provável;10;0;0;0;0
+80570;Wendell Nascimento Borges;Wendell;wendell;276;SAO;SAO;2;Lateral;6;Nulo;7;0;0;0;0
+106294;Marcos Antônio Silva Santos;Marcos Antônio;marcos-antonio;276;SAO;SAO;4;Meia;7;Provável;8;0;0;0;0
+90846;William Klaus - Willian;Klaus;klaus;364;REM;REM;3;Zagueiro;7;Provável;4;0;0;0;0
+106028;Carlos Miguel Coronel;Coronel;coronel;276;SAO;SAO;1;Goleiro;6;Nulo;5;0;0;0;0
+103912;Hernán Jorge Crespo;Hernán Crespo;hernan-crespo;276;SAO;SAO;6;Técnico;7;Provável;7;0;0;0;0
+131617;André Oliveira e Silva;André Silva;andre-silva;276;SAO;SAO;5;Atacante;5;Contundido;8;0;0;0;0
+141611;Maik Gomes Viegas;Maik;maik;276;SAO;SAO;2;Lateral;6;Nulo;5;0;0;0;0
+105300;Nahuel Adolfo Ferraresi Hernández;Ferraresi;ferraresi;276;SAO;SAO;3;Zagueiro;6;Nulo;8;0;0;0;0
+117818;Young Navarro Moraes;Young;young;276;SAO;SAO;1;Goleiro;6;Nulo;3;0;0;0;0
+86863;Luiz Otávio da Silva Santos;Luiz Otávio;luiz-otavio;2305;MIR;MIR;3;Zagueiro;6;Nulo;4;0;0;0;0
+118563;Rodrigo Huendra Almeida Mendonça;Rodriguinho;rodriguinho;276;SAO;SAO;4;Meia;6;Nulo;4;0;0;0;0
+107873;Damián Josué Bobadilla Benítez;Bobadilla;bobadilla;276;SAO;SAO;4;Meia;6;Nulo;10;0;0;0;0
+71123;Thiago Henrique Mendes Ribeiro;Thiago Mendes;thiago-mendes;267;VAS;VAS;4;Meia;7;Provável;7;0;0;0;0
+140542;Ryan Francisco Rodrigues dos Santos Silva;Ryan Francisco;ryan-francisco;276;SAO;SAO;5;Atacante;5;Contundido;5;0;0;0;0
+141609;Lucca Marques Alencar;Lucca;lucca;276;SAO;SAO;5;Atacante;2;Dúvida;3;0;0;0;0
+81091;Jair Rodrigues Júnior;Jair;jair;267;VAS;VAS;4;Meia;6;Nulo;6;0;0;0;0
+90309;David Correa da Fonseca;David;david;267;VAS;VAS;5;Atacante;2;Dúvida;5;0;0;0;0
+72391;Fernando Diniz Silva;Fernando Diniz;fernando-diniz;267;VAS;VAS;6;Técnico;7;Provável;8;0;0;0;0
+99213;José Luis Rodríguez Bebanz;Puma Rodríguez;puma-rodriguez;267;VAS;VAS;2;Lateral;2;Dúvida;5;0;0;0;0
+93716;Paulo Henrique de Oliveira Alves;Paulo Henrique;paulo-henrique;267;VAS;VAS;2;Lateral;7;Provável;10;0;0;0;0
+97095;Carlos Eccehomo Cuesta Figueroa;Carlos Cuesta;carlos-cuesta;267;VAS;VAS;3;Zagueiro;7;Provável;9;0;0;0;0
+86410;Victor Luis Chuab Zamblauskas;Victor Luis;victor-luis;267;VAS;VAS;2;Lateral;6;Nulo;4;0;0;0;0
+86686;Danilo das Neves Pinheiro;Tchê Tchê;tche-tche;267;VAS;VAS;4;Meia;6;Nulo;6;0;0;0;0
+95936;Daniel Cerântula Fuzato;Daniel Fuzato;daniel-fuzato;267;VAS;VAS;1;Goleiro;6;Nulo;2;0;0;0;0
+111682;Adson Ferreira Soares;Adson;adson;267;VAS;VAS;4;Meia;6;Nulo;6;0;0;0;0
+99198;Pablo Vegetti;Vegetti;vegetti;267;VAS;VAS;5;Atacante;6;Nulo;11;0;0;0;0
+115141;Lucas de Freitas Molarinho Chagas;Lucas Freitas;lucas-freitas;267;VAS;VAS;3;Zagueiro;6;Nulo;4;0;0;0;0
+101594;Hugo Moura Arruda da Silva;Hugo Moura;hugo-moura;267;VAS;VAS;4;Meia;6;Nulo;4;0;0;0;0
+105584;Lucas Piton Crivellaro;Lucas Piton;lucas-piton;267;VAS;VAS;2;Lateral;2;Dúvida;9;0;0;0;0
+108671;Benjamín Antonio Garré;Garré;garre;267;VAS;VAS;4;Meia;6;Nulo;4;0;0;0;0
+118752;Mateus Carvalho dos Santos;Mateus Carvalho;mateus-carvalho;267;VAS;VAS;4;Meia;5;Contundido;4;0;0;0;0
+116706;Carlos Andrés Gómez Hinestroza;Andrés Gómez;andres-gomez;267;VAS;VAS;5;Atacante;7;Provável;9;0;0;0;0
+117330;Robert Renan Alves Barbosa;Robert Renan;robert-renan;267;VAS;VAS;3;Zagueiro;7;Provável;8;0;0;0;0
+142279;Nuno Gonçalo Rocha Moreira;Nuno Moreira;nuno-moreira;267;VAS;VAS;4;Meia;7;Provável;8;0;0;0;0
+122485;Cauan Lucas Barros da Luz;Barros;barros;267;VAS;VAS;4;Meia;7;Provável;5;0;0;0;0
+122486;Rayan Vitor Simplício Rocha;Rayan;rayan;267;VAS;VAS;5;Atacante;6;Nulo;9;0;0;0;0
+83786;Hueglo dos Santos Neris;Neris;neris;287;VIT;VIT;3;Zagueiro;6;Nulo;3;0;0;0;0
+115100;Matheus França de Oliveira;Matheus França;matheus-franca;267;VAS;VAS;4;Meia;6;Nulo;4;0;0;0;0
+92180;Jair Ventura;Jair Ventura;jair-ventura;287;VIT;VIT;6;Técnico;7;Provável;5;0;0;0;0
+90588;Caique de Jesus Gonçalves;Caíque;caique;287;VIT;VIT;4;Meia;7;Provável;6;0;0;0;0
+93411;Aitor Cantalapiedra Fernández;Cantalapiedra;cantalapiedra;287;VIT;VIT;4;Meia;7;Provável;7;0;0;0;0
+99440;Gabriel Baralhas dos Santos;Baralhas;baralhas;287;VIT;VIT;4;Meia;7;Provável;6;0;0;0;0
+42222;Osvaldo Lourenço Filho;Osvaldo;osvaldo;287;VIT;VIT;5;Atacante;6;Nulo;5;0;0;0;0
+101597;Ramon Ramos Lima;Ramon;ramon;287;VIT;VIT;2;Lateral;7;Provável;5;0;0;0;0
+90943;José Marcos Alves Luis;Zé Marcos;ze-marcos;287;VIT;VIT;3;Zagueiro;7;Provável;5;0;0;0;0
+92696;Renato Kayzer de Souza;Renato Kayzer;renato-kayzer;287;VIT;VIT;5;Atacante;7;Provável;6;0;0;0;0
+90703;Matheus Martins Fogaça de Paulo;Matheuzinho;matheuzinho;287;VIT;VIT;4;Meia;6;Nulo;6;0;0;0;0
+96793;Cleidson Andrade da Souza Silva;Camutanga;camutanga;287;VIT;VIT;3;Zagueiro;7;Provável;5;0;0;0;0
+104118;Lucas Willians Assis Arcanjo;Lucas Arcanjo;lucas-arcanjo;287;VIT;VIT;1;Goleiro;5;Contundido;4;0;0;0;0
+111879;Mateus da Silva Duarte;Mateus Silva;mateus-silva;287;VIT;VIT;2;Lateral;7;Provável;3;0;0;0;0
+116461;Jamerson Santos de Jesus;Jamerson;jamerson;287;VIT;VIT;2;Lateral;6;Nulo;4;0;0;0;0
+109138;Javier Enrique Delgado Saverio;Kike Saverio;kike-saverio;287;VIT;VIT;5;Atacante;6;Nulo;5;0;0;0;0
+101752;Claudio Coelho Salvático;Claudinho;claudinho;287;VIT;VIT;2;Lateral;6;Nulo;4;0;0;0;0
+97645;Thiago Couto Wenceslau;Thiago Couto;thiago-couto;287;VIT;VIT;1;Goleiro;6;Nulo;3;0;0;0;0
+104330;Eduardo Marcelo Rodrigues Nunes;Dudu;dudu;287;VIT;VIT;4;Meia;6;Nulo;4;0;0;0;0
+100969;Ronald dos Santos Lopes;Ronald Lopes;ronald-lopes;287;VIT;VIT;4;Meia;7;Provável;5;0;0;0;0
+145099;Rúben da Rocha Rodrigues;Rúben Rodrigues;ruben-rodrigues;287;VIT;VIT;4;Meia;6;Nulo;5;0;0;0;0
+130620;Edenílson Santos Nascimento Filho;Edenílson;edenilson;287;VIT;VIT;4;Meia;6;Nulo;3;0;0;0;0
+90031;John Stiven Mendoza Valencia;Mendoza;mendoza;293;CAP;CAP;5;Atacante;6;Nulo;6;0;0;0;0
+145387;Rúben Ismael Valente Ramos;Rúben Ismael;ruben-ismael;287;VIT;VIT;4;Meia;6;Nulo;4;0;0;0;0
+111951;Renzo López Patrón;Renzo López;renzo-lopez;287;VIT;VIT;5;Atacante;6;Nulo;3;0;0;0;0
+145510;Paulo Roberto dos Santos Almeida;Paulo Roberto;paulo-roberto;287;VIT;VIT;2;Lateral;6;Nulo;3;0;0;0;0
+51548;Giuliano Victor de Paula;Giuliano;giuliano;293;CAP;CAP;4;Meia;6;Nulo;6;0;0;0;0
+129317;Felipe Cardoso;Felipe Cardoso;felipe-cardoso;287;VIT;VIT;4;Meia;6;Nulo;3;0;0;0;0
+102561;Gonzalo Mathías Mastriani Borges;Mastriani;mastriani;293;CAP;CAP;5;Atacante;6;Nulo;4;0;0;0;0
+78077;Madson Ferreira dos Santos;Madson;madson;293;CAP;CAP;2;Lateral;6;Nulo;5;0;0;0;0
+85626;Leonardo Pinheiro da Conceição;Léo;leo;293;CAP;CAP;3;Zagueiro;6;Nulo;5;0;0;0;0
+80129;Jadson Alves dos Santos;Jadson;jadson;293;CAP;CAP;4;Meia;7;Provável;6;0;0;0;0
+102796;Julimar Silva Oliveira Júnior;Julimar;julimar;293;CAP;CAP;5;Atacante;7;Provável;4;0;0;0;0
+92273;Odair Hellmann;Odair Hellmann;odair-hellmann;293;CAP;CAP;6;Técnico;7;Provável;5;0;0;0;0
+90715;Luiz Fernando Moraes dos Santos;Luiz Fernando;luiz-fernando;293;CAP;CAP;5;Atacante;6;Nulo;5;0;0;0;0
+105844;Lucas Belezi Barbosa;Belezi;belezi;293;CAP;CAP;3;Zagueiro;6;Nulo;3;0;0;0;0
+105518;Renan Peixoto Nepomuceno;Renan Peixoto;renan-peixoto;293;CAP;CAP;5;Atacante;6;Nulo;4;0;0;0;0
+120433;Leonardo Derik Dias Gonçalves;Léo Derik;leo-derik;293;CAP;CAP;2;Lateral;7;Provável;2;0;0;0;0
+92496;Raul Lô Gonçalves;Raul;raul;293;CAP;CAP;4;Meia;6;Nulo;4;0;0;0;0
+112017;Antonio Feliphe Costa Silva;Felipinho;felipinho;293;CAP;CAP;4;Meia;7;Provável;4;0;0;0;0
+110668;Lucas Ángel Esquivel;Esquivel;esquivel;293;CAP;CAP;2;Lateral;6;Nulo;4;0;0;0;0
+107985;Carlos Terán Díaz;Terán;teran;293;CAP;CAP;3;Zagueiro;7;Provável;4;0;0;0;0
+113113;Gastón Américo Benavídez;Benavídez;benavidez;293;CAP;CAP;2;Lateral;7;Provável;4;0;0;0;0
+115266;Renan Rodrigues Fonseca Viana;Renan Viana;renan-viana;293;CAP;CAP;5;Atacante;6;Nulo;2;0;0;0;0
+110698;Mycael Pontes Moreira;Mycael;mycael;293;CAP;CAP;1;Goleiro;6;Nulo;5;0;0;0;0
+115270;Habraão Lincon do Nascimento Saraiva;Habraão;habraao;293;CAP;CAP;3;Zagueiro;6;Nulo;3;0;0;0;0
+125746;Eduardo Kogitzki Anastacio;Dudu;dudu;293;CAP;CAP;4;Meia;6;Nulo;1;0;0;0;0
+123869;Juan Felipe Aguirre Tabares;Aguirre;aguirre;293;CAP;CAP;3;Zagueiro;6;Nulo;4;0;0;0;0
+122439;Isaac Rodrigues de Lima;Isaac;isaac;293;CAP;CAP;5;Atacante;6;Nulo;2;0;0;0;0
+122316;João Vitor Vigolo Gomes;Batata;batata;293;CAP;CAP;2;Lateral;6;Nulo;1;0;0;0;0
+125926;Bruno Zapelli;Zapelli;zapelli;293;CAP;CAP;4;Meia;7;Provável;6;0;0;0;0
+127970;Felipe Chiqueti Bandeira;Felipe Chiqueti;felipe-chiqueti;293;CAP;CAP;4;Meia;6;Nulo;1;0;0;0;0
+128431;João Victor Machado Cruz;João Cruz;joao-cruz;293;CAP;CAP;4;Meia;6;Nulo;5;0;0;0;0
+123101;Leonardo Caetano Silva;Leozinho;leozinho;293;CAP;CAP;5;Atacante;6;Nulo;3;0;0;0;0
+131832;Juan Camilo Portilla Orozco;Portilla;portilla;293;CAP;CAP;4;Meia;7;Provável;5;0;0;0;0
+143193;Kevin Stiven Viveros Rodallega;Viveros;viveros;293;CAP;CAP;5;Atacante;7;Provável;7;0;0;0;0
+50742;Gabriel Christoni Leite;Gabriel Leite;gabriel-leite;294;CFC;CFC;1;Goleiro;6;Nulo;3;0;0;0;0
+128427;Alejandro García Castillo;Alejandro García;alejandro-garcia;293;CAP;CAP;4;Meia;6;Nulo;4;0;0;0;0
+130842;Matheus Soares Rocha;Matheus Soares;matheus-soares;293;CAP;CAP;1;Goleiro;6;Nulo;1;0;0;0;0
+128429;Marcos André Paulino Maia;Marcão;marcao;293;CAP;CAP;3;Zagueiro;6;Nulo;3;0;0;0;0
+63354;Rodrigo Modesto da Silva Moledo;Rodrigo Moledo;rodrigo-moledo;294;CFC;CFC;3;Zagueiro;6;Nulo;3;0;0;0;0
+145609;Élan Joshep Ricardo Ochoa;Élan Ricardo;elan-ricardo;293;CAP;CAP;4;Meia;6;Nulo;3;0;0;0;0
+143532;Carlos Eduardo Souza de Barros;Carlos Eduardo;carlos-eduardo;293;CAP;CAP;1;Goleiro;6;Nulo;1;0;0;0;0
+81952;Willian Osmar de Oliveira Silva;Willian Oliveira;willian-oliveira;294;CFC;CFC;4;Meia;7;Provável;5;0;0;0;0
+90302;Pedro Rocha Neves;Pedro Rocha;pedro-rocha;294;CFC;CFC;5;Atacante;7;Provável;7;0;0;0;0
+84339;Bruno Ferreira Melo;Bruno Melo;bruno-melo;294;CFC;CFC;2;Lateral;2;Dúvida;4;0;0;0;0
+71227;Maicon Pereira Roque;Maicon;maicon;294;CFC;CFC;3;Zagueiro;7;Provável;5;0;0;0;0
+104811;Sebastián Gómez Londoño;Sebastián Gómez;sebastian-gomez;294;CFC;CFC;4;Meia;7;Provável;4;0;0;0;0
+101405;Wallisson Luiz Alves Máximo;Wallisson;wallisson;294;CFC;CFC;4;Meia;6;Nulo;3;0;0;0;0
+84626;Josué Filipe Soares Pesqueira;Josué;josue;294;CFC;CFC;4;Meia;7;Provável;6;0;0;0;0
+126977;Fernando Seabra;Fernando Seabra;fernando-seabra;294;CFC;CFC;6;Técnico;7;Provável;4;0;0;0;0
+110708;Pedro Felipe de Faria Rangel;Pedro Rangel;pedro-rangel;294;CFC;CFC;1;Goleiro;6;Nulo;3;0;0;0;0
+82628;Guilherme de Jesus da Silva;Tinga;tinga;294;CFC;CFC;2;Lateral;7;Provável;5;0;0;0;0
+84428;Fernando Pereira do Nascimento;Fernando Sobral;fernando-sobral;294;CFC;CFC;4;Meia;6;Nulo;5;0;0;0;0
+97878;Jacy Maranhão Oliveira;Jacy;jacy;294;CFC;CFC;3;Zagueiro;2;Dúvida;3;0;0;0;0
+117930;Joaquín Lavega Colzada;Lavega;lavega;294;CFC;CFC;5;Atacante;7;Provável;3;0;0;0;0
+112576;Vinicius Romualdo dos Santos;Vini Paulista;vini-paulista;294;CFC;CFC;4;Meia;6;Nulo;3;0;0;0;0
+123648;Lucas Ronier Vieira Pires;Lucas Ronier;lucas-ronier;294;CFC;CFC;5;Atacante;7;Provável;4;0;0;0;0
+82730;Marcelo Rangel da Rosa;Marcelo Rangel;marcelo-rangel;364;REM;REM;1;Goleiro;7;Provável;4;0;0;0;0
+133460;Felipe Guimarães da Silva;Felipe Guimarães;felipe-guimaraes;294;CFC;CFC;2;Lateral;6;Nulo;1;0;0;0;0
+124834;Ruan Lucas de Assis;Ruan Assis;ruan-assis;294;CFC;CFC;5;Atacante;6;Nulo;1;0;0;0;0
+109127;Tiago Cóser;Tiago Cóser;tiago-coser;294;CFC;CFC;3;Zagueiro;2;Dúvida;2;0;0;0;0
+124358;João Vitor da Silva Almeida;João Almeida;joao-almeida;294;CFC;CFC;2;Lateral;2;Dúvida;1;0;0;0;0
+125803;Pedro Luccas Morisco da Silva;Pedro Morisco;pedro-morisco;294;CFC;CFC;1;Goleiro;7;Provável;6;0;0;0;0
+115840;João Victor Silva Benassi;Benassi;benassi;294;CFC;CFC;1;Goleiro;6;Nulo;1;0;0;0;0
+125551;Jean Gabriel Silveira;Jean Gabriel;jean-gabriel;294;CFC;CFC;4;Meia;6;Nulo;2;0;0;0;0
+141337;Lucas Taverna;Lucas Taverna;lucas-taverna;294;CFC;CFC;2;Lateral;6;Nulo;1;0;0;0;0
+131279;Thiago Azaf Siqueira Soares;Thiago Azaf;thiago-azaf;294;CFC;CFC;5;Atacante;6;Nulo;1;0;0;0;0
+70449;Gabriel Vasconcelos Ferreira;Gabriel;gabriel;287;VIT;VIT;1;Goleiro;7;Provável;6;0;0;0;0
+130283;Matheus Dalsasso Dias;Matheus Dias;matheus-dias;294;CFC;CFC;4;Meia;6;Nulo;1;0;0;0;0
+84927;Raphael Guimarães de Paula;Dodô;dodo;364;REM;REM;4;Meia;6;Nulo;3;0;0;0;0
+84708;Panagiotis Tachtsidis;Panagiotis Tachtsidis;panagiotis-tachtsidis;364;REM;REM;4;Meia;6;Nulo;3;0;0;0;0
+88065;Jorge Marco de Oliveira Moraes;Jorge;jorge;364;REM;REM;2;Lateral;6;Nulo;4;0;0;0;0
+85315;Víctor Danilo Cantillo Jiménez;Cantillo;cantillo;364;REM;REM;4;Meia;6;Nulo;5;0;0;0;0
+83074;Ygor Vinhas Oliveira Lima;Ygor Vinhas;ygor-vinhas;364;REM;REM;1;Goleiro;6;Nulo;3;0;0;0;0
