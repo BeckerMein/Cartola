@@ -1,71 +1,26 @@
-import { StyleSheet, Text, View } from "react-native";
-
-export default function HomeScreen() {
-  return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Cartola</Text>
-      <Text style={styles.subtitle}>Seu time, sua liga, sua disputa.</Text>
-
-      <View style={styles.card}>
-        <Text style={styles.cardTitle}>Rodada Atual</Text>
-        <Text style={styles.cardValue}>—</Text>
-      </View>
-
-      <View style={styles.cardRow}>
-        <View style={styles.cardSmall}>
-          <Text style={styles.cardTitle}>Saldo</Text>
-          <Text style={styles.cardValue}>—</Text>
-        </View>
-        <View style={styles.cardSmall}>
-          <Text style={styles.cardTitle}>Pontos</Text>
-          <Text style={styles.cardValue}>—</Text>
-        </View>
-      </View>
-    </View>
-  );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    padding: 24,
-    gap: 12,
-  },
-  title: {
-    fontSize: 32,
-    fontWeight: "700",
-  },
-  subtitle: {
-    fontSize: 16,
-    color: "#555",
-    marginBottom: 8,
-  },
-  card: {
-    borderWidth: 1,
-    borderColor: "#e5e5e5",
-    borderRadius: 12,
-    padding: 16,
-    backgroundColor: "#fff",
-  },
-  cardRow: {
-    flexDirection: "row",
-    gap: 12,
-  },
-  cardSmall: {
-    flex: 1,
-    borderWidth: 1,
-    borderColor: "#e5e5e5",
-    borderRadius: 12,
-    padding: 16,
-    backgroundColor: "#fff",
-  },
-  cardTitle: {
-    fontSize: 14,
-    color: "#777",
-  },
-  cardValue: {
-    marginTop: 6,
-    fontSize: 20,
-    fontWeight: "600",
-  },
-});
+import { StyleSheet, Text, View } from 'react-native';  
+  
+export default function HomeScreen() {  
+  return (  
+    <View style={styles.screen}>  
+      <Text style={styles.title}>Cartola MVP</Text>  
+      <Text style={styles.subtitle}>Visao geral rapida da rodada.</Text>  
+      <View style={styles.card}><Text style={styles.cardLabel}>Rodada atual</Text><Text style={styles.cardValue}>1</Text></View>  
+      <View style={styles.row}>  
+        <View style={styles.cardSmall}><Text style={styles.cardLabel}>Saldo</Text><Text style={styles.cardValue}>C$ 200.00</Text></View>  
+        <View style={styles.cardSmall}><Text style={styles.cardLabel}>Pontos</Text><Text style={styles.cardValue}>0.00</Text></View>  
+      </View>  
+    </View>  
+  );  
+}  
+  
+const styles = StyleSheet.create({  
+  screen: { flex: 1, backgroundColor: '#0b0b0b', padding: 20, gap: 12 },  
+  title: { color: '#fff', fontSize: 28, fontWeight: '700' },  
+  subtitle: { color: '#b3b3b3', marginBottom: 4 },  
+  card: { backgroundColor: '#141414', borderColor: '#2d2d2d', borderWidth: 1, borderRadius: 14, padding: 16 },  
+  row: { flexDirection: 'row', gap: 10 },  
+  cardSmall: { flex: 1, backgroundColor: '#141414', borderColor: '#2d2d2d', borderWidth: 1, borderRadius: 14, padding: 16 },  
+  cardLabel: { color: '#a3a3a3', fontSize: 13 },  
+  cardValue: { color: '#fff', fontSize: 20, fontWeight: '700', marginTop: 4 },  
+}); 

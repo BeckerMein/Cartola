@@ -1,15 +1,18 @@
 -- Cartola clone baseline schema (Supabase / Postgres)
 -- Run this in Supabase SQL Editor.
 
--- Extensions
-create extension if not exists "pgcrypto";
+begin;
+
+create extension if not exists pgcrypto;
 
 -- Profiles (linked to auth.users)
 create table if not exists public.profiles (
   id uuid primary key references auth.users(id) on delete cascade,
+  email text unique,
   username text unique not null,
   full_name text,
-  created_at timestamptz not null default now()
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now()
 );
 
 -- Teams (one per user for now)
@@ -110,6 +113,20 @@ create table if not exists public.league_members (
   primary key (league_id, team_id)
 );
 
+-- Keep updated_at in sync for profiles
+create or replace function public.set_updated_at()
+returns trigger as $$
+begin
+  new.updated_at = now();
+  return new;
+end;
+$$ language plpgsql;
+
+drop trigger if exists trg_profiles_set_updated_at on public.profiles;
+create trigger trg_profiles_set_updated_at
+before update on public.profiles
+for each row execute function public.set_updated_at();
+
 -- RLS
 alter table public.profiles enable row level security;
 alter table public.teams enable row level security;
@@ -118,52 +135,80 @@ alter table public.lineup_players enable row level security;
 alter table public.leagues enable row level security;
 alter table public.league_members enable row level security;
 
+alter table public.clubs enable row level security;
+alter table public.positions enable row level security;
+alter table public.athletes enable row level security;
+alter table public.rounds enable row level security;
+alter table public.market enable row level security;
+alter table public.athlete_scores enable row level security;
+alter table public.team_scores enable row level security;
+
 -- Profiles policies
-create policy "profiles_select_own" on public.profiles
+drop policy if exists profiles_select_own on public.profiles;
+create policy profiles_select_own on public.profiles
   for select using (auth.uid() = id);
-create policy "profiles_update_own" on public.profiles
+
+drop policy if exists profiles_update_own on public.profiles;
+create policy profiles_update_own on public.profiles
   for update using (auth.uid() = id);
-create policy "profiles_insert_own" on public.profiles
+
+drop policy if exists profiles_insert_own on public.profiles;
+create policy profiles_insert_own on public.profiles
   for insert with check (auth.uid() = id);
 
 -- Teams policies
-create policy "teams_select_own" on public.teams
+drop policy if exists teams_select_own on public.teams;
+create policy teams_select_own on public.teams
   for select using (auth.uid() = owner_id);
-create policy "teams_insert_own" on public.teams
+
+drop policy if exists teams_insert_own on public.teams;
+create policy teams_insert_own on public.teams
   for insert with check (auth.uid() = owner_id);
-create policy "teams_update_own" on public.teams
+
+drop policy if exists teams_update_own on public.teams;
+create policy teams_update_own on public.teams
   for update using (auth.uid() = owner_id);
 
 -- Lineups policies
-create policy "lineups_select_own" on public.lineups
+drop policy if exists lineups_select_own on public.lineups;
+create policy lineups_select_own on public.lineups
   for select using (exists (
     select 1 from public.teams t where t.id = team_id and t.owner_id = auth.uid()
   ));
-create policy "lineups_insert_own" on public.lineups
+
+drop policy if exists lineups_insert_own on public.lineups;
+create policy lineups_insert_own on public.lineups
   for insert with check (exists (
     select 1 from public.teams t where t.id = team_id and t.owner_id = auth.uid()
   ));
-create policy "lineups_update_own" on public.lineups
+
+drop policy if exists lineups_update_own on public.lineups;
+create policy lineups_update_own on public.lineups
   for update using (exists (
     select 1 from public.teams t where t.id = team_id and t.owner_id = auth.uid()
   ));
 
 -- Lineup players policies
-create policy "lineup_players_select_own" on public.lineup_players
+drop policy if exists lineup_players_select_own on public.lineup_players;
+create policy lineup_players_select_own on public.lineup_players
   for select using (exists (
     select 1
     from public.lineups l
     join public.teams t on t.id = l.team_id
     where l.id = lineup_id and t.owner_id = auth.uid()
   ));
-create policy "lineup_players_insert_own" on public.lineup_players
+
+drop policy if exists lineup_players_insert_own on public.lineup_players;
+create policy lineup_players_insert_own on public.lineup_players
   for insert with check (exists (
     select 1
     from public.lineups l
     join public.teams t on t.id = l.team_id
     where l.id = lineup_id and t.owner_id = auth.uid()
   ));
-create policy "lineup_players_delete_own" on public.lineup_players
+
+drop policy if exists lineup_players_delete_own on public.lineup_players;
+create policy lineup_players_delete_own on public.lineup_players
   for delete using (exists (
     select 1
     from public.lineups l
@@ -171,33 +216,82 @@ create policy "lineup_players_delete_own" on public.lineup_players
     where l.id = lineup_id and t.owner_id = auth.uid()
   ));
 
--- Leagues policies (owner can manage)
-create policy "leagues_select_all" on public.leagues
+-- Leagues policies
+drop policy if exists leagues_select_all on public.leagues;
+create policy leagues_select_all on public.leagues
   for select using (true);
-create policy "leagues_insert_own" on public.leagues
+
+drop policy if exists leagues_insert_own on public.leagues;
+create policy leagues_insert_own on public.leagues
   for insert with check (auth.uid() = owner_id);
-create policy "leagues_update_own" on public.leagues
+
+drop policy if exists leagues_update_own on public.leagues;
+create policy leagues_update_own on public.leagues
   for update using (auth.uid() = owner_id);
 
 -- League members policies
-create policy "league_members_select_all" on public.league_members
+drop policy if exists league_members_select_all on public.league_members;
+create policy league_members_select_all on public.league_members
   for select using (true);
-create policy "league_members_insert_own_team" on public.league_members
+
+drop policy if exists league_members_insert_own_team on public.league_members;
+create policy league_members_insert_own_team on public.league_members
   for insert with check (exists (
     select 1 from public.teams t where t.id = team_id and t.owner_id = auth.uid()
   ));
-create policy "league_members_delete_own_team" on public.league_members
+
+drop policy if exists league_members_delete_own_team on public.league_members;
+create policy league_members_delete_own_team on public.league_members
   for delete using (exists (
     select 1 from public.teams t where t.id = team_id and t.owner_id = auth.uid()
   ));
 
--- Profiles bootstrap: create profile row after auth user creation
+-- Public read policies for game data
+drop policy if exists clubs_select_all on public.clubs;
+create policy clubs_select_all on public.clubs for select using (true);
+
+drop policy if exists positions_select_all on public.positions;
+create policy positions_select_all on public.positions for select using (true);
+
+drop policy if exists athletes_select_all on public.athletes;
+create policy athletes_select_all on public.athletes for select using (true);
+
+drop policy if exists rounds_select_all on public.rounds;
+create policy rounds_select_all on public.rounds for select using (true);
+
+drop policy if exists market_select_all on public.market;
+create policy market_select_all on public.market for select using (true);
+
+drop policy if exists athlete_scores_select_all on public.athlete_scores;
+create policy athlete_scores_select_all on public.athlete_scores for select using (true);
+
+drop policy if exists team_scores_select_all on public.team_scores;
+create policy team_scores_select_all on public.team_scores for select using (true);
+
+-- Profiles bootstrap after signup
 create or replace function public.handle_new_user()
 returns trigger as $$
+declare
+  generated_username text;
 begin
-  insert into public.profiles (id, username, full_name)
-  values (new.id, coalesce(new.raw_user_meta_data->>'username', ''), new.raw_user_meta_data->>'full_name')
-  on conflict (id) do nothing;
+  generated_username := coalesce(
+    nullif(new.raw_user_meta_data->>'username', ''),
+    'user_' || replace(left(new.id::text, 8), '-', '')
+  );
+
+  insert into public.profiles (id, email, username, full_name)
+  values (
+    new.id,
+    new.email,
+    generated_username,
+    nullif(new.raw_user_meta_data->>'full_name', '')
+  )
+  on conflict (id) do update set
+    email = excluded.email,
+    username = excluded.username,
+    full_name = coalesce(excluded.full_name, public.profiles.full_name),
+    updated_at = now();
+
   return new;
 end;
 $$ language plpgsql security definer;
@@ -206,3 +300,6 @@ drop trigger if exists on_auth_user_created on auth.users;
 create trigger on_auth_user_created
   after insert on auth.users
   for each row execute function public.handle_new_user();
+
+commit;
+

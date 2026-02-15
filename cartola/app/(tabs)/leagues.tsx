@@ -1,246 +1,139 @@
-import { useEffect, useState } from "react";
-import {
-  ActivityIndicator,
-  Alert,
-  FlatList,
-  Pressable,
-  StyleSheet,
-  Text,
-  TextInput,
-  View,
-} from "react-native";
-
-import { getSessionUserId, getTeamForUser } from "@/lib/data";
-import { supabase } from "@/lib/supabase";
-
-type League = {
-  id: string;
-  name: string;
-  is_public: boolean;
-  owner_id: string;
-  invite_code: string | null;
-};
-
-export default function LeaguesScreen() {
-  const [loading, setLoading] = useState(true);
-  const [leagues, setLeagues] = useState<League[]>([]);
-  const [name, setName] = useState("");
-  const [isPublic, setIsPublic] = useState(false);
-  const [inviteCode, setInviteCode] = useState("");
-
-  const load = async () => {
-    setLoading(true);
-    const { data } = await supabase
-      .from("leagues")
-      .select("id,name,is_public,owner_id,invite_code")
-      .order("created_at", { ascending: false });
-    setLeagues(data ?? []);
-    setLoading(false);
-  };
-
-  useEffect(() => {
-    load();
-  }, []);
-
-  const createLeague = async () => {
-    const userId = await getSessionUserId();
-    if (!userId || !name.trim()) return;
-    const code = Math.random().toString(36).slice(2, 8).toUpperCase();
-    const { error } = await supabase.from("leagues").insert({
-      name: name.trim(),
-      owner_id: userId,
-      is_public: isPublic,
-      invite_code: code,
-    });
-    if (error) {
-      Alert.alert("Erro ao criar liga", error.message);
-      return;
+import { useEffect, useState } from 'react';  
+import { ActivityIndicator, FlatList, Pressable, StyleSheet, Text, TextInput, View } from 'react-native';  
+import { getSessionUserId, getTeamForUser } from '@/lib/data';  
+import { showError, showSuccess } from '@/lib/feedback';
+import { supabase } from '@/lib/supabase';  
+  
+type League = { id: string; name: string; is_public: boolean; invite_code: string | null };  
+  
+export default function LeaguesScreen() {  
+  const [loading, setLoading] = useState(true);  
+  const [leagues, setLeagues] = useState<League[]>([]);  
+  const [name, setName] = useState('');  
+  const [inviteCode, setInviteCode] = useState('');  
+  const [isPublic, setIsPublic] = useState(false);  
+  
+  const load = async () => {  
+    try {
+      setLoading(true);  
+      const { data, error } = await supabase.from('leagues').select('id,name,is_public,invite_code').order('created_at', { ascending: false });  
+      if (error) {
+        showError('Erro ao carregar ligas', error);
+        return;
+      }
+      setLeagues(data ?? []);  
+    } catch (error) {
+      showError('Erro ao carregar ligas', error, 'Tente novamente.');
+    } finally {
+      setLoading(false);  
     }
-    setName("");
-    setIsPublic(false);
-    await load();
-  };
+  };  
+  
+  useEffect(() => { load(); }, []);  
+  
+  const createLeague = async () => {  
+    try {
+      const userId = await getSessionUserId();  
+      if (!userId) {
+        showError('Sessao invalida', 'Faca login novamente.');
+        return;
+      }
+      if (!name.trim()) {
+        showError('Dados invalidos', 'Informe o nome da liga.');
+        return;
+      }
 
-  const joinLeague = async () => {
-    const userId = await getSessionUserId();
-    if (!userId) return;
-    const team = await getTeamForUser(userId);
-    if (!team?.id) {
-      Alert.alert("Crie um time primeiro");
-      return;
+      const code = Math.random().toString(36).slice(2, 8).toUpperCase();  
+      const { error } = await supabase.from('leagues').insert({ name: name.trim(), owner_id: userId, is_public: isPublic, invite_code: code });  
+      if (error) {
+        showError('Erro ao criar liga', error);
+        return;
+      }
+
+      setName('');  
+      setIsPublic(false);  
+      showSuccess('Liga criada', `Codigo de convite: ${code}`);
+      load();  
+    } catch (error) {
+      showError('Erro ao criar liga', error, 'Tente novamente.');
     }
-    const { data: league } = await supabase
-      .from("leagues")
-      .select("id")
-      .eq("invite_code", inviteCode.trim().toUpperCase())
-      .maybeSingle();
+  };  
+  
+  const joinLeague = async () => {  
+    try {
+      const userId = await getSessionUserId();  
+      if (!userId) {
+        showError('Sessao invalida', 'Faca login novamente.');
+        return;
+      }
+      if (!inviteCode.trim()) {
+        showError('Dados invalidos', 'Informe o codigo de convite.');
+        return;
+      }
 
-    if (!league?.id) {
-      Alert.alert("Liga não encontrada");
-      return;
+      const team = await getTeamForUser(userId);  
+      if (!team?.id) {
+        showError('Time obrigatorio', 'Crie seu time antes de entrar em uma liga.');
+        return;
+      }
+
+      const normalizedCode = inviteCode.trim().toUpperCase();
+      const { data: league, error: leagueError } = await supabase.from('leagues').select('id').eq('invite_code', normalizedCode).maybeSingle();  
+      if (leagueError) {
+        showError('Erro ao buscar liga', leagueError);
+        return;
+      }
+      if (!league?.id) {
+        showError('Liga nao encontrada', 'Verifique o codigo e tente novamente.');
+        return;
+      }
+
+      const { error } = await supabase.from('league_members').insert({ league_id: league.id, team_id: team.id });  
+      if (error) {
+        showError('Erro ao entrar na liga', error);
+        return;
+      }
+
+      setInviteCode('');  
+      showSuccess('Entrada confirmada', 'Voce entrou na liga com sucesso.');
+      load();  
+    } catch (error) {
+      showError('Erro ao entrar na liga', error, 'Tente novamente.');
     }
-
-    const { error } = await supabase.from("league_members").insert({
-      league_id: league.id,
-      team_id: team.id,
-    });
-    if (error) {
-      Alert.alert("Erro ao entrar na liga", error.message);
-      return;
-    }
-
-    setInviteCode("");
-    await load();
-  };
-
-  return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Ligas</Text>
-      <Text style={styles.subtitle}>Crie ou participe de ligas com amigos.</Text>
-
-      <Text style={styles.section}>Criar liga</Text>
-      <TextInput
-        style={styles.input}
-        placeholder="Nome da liga"
-        value={name}
-        onChangeText={setName}
-      />
-      <View style={styles.toggleRow}>
-        <Pressable
-          style={[styles.toggle, isPublic && styles.toggleActive]}
-          onPress={() => setIsPublic((v) => !v)}
-        >
-          <Text style={isPublic ? styles.toggleTextActive : styles.toggleText}>
-            {isPublic ? "Pública" : "Privada"}
-          </Text>
-        </Pressable>
-        <Pressable style={styles.button} onPress={createLeague}>
-          <Text style={styles.buttonText}>Criar</Text>
-        </Pressable>
-      </View>
-
-      <Text style={styles.section}>Entrar por código</Text>
-      <View style={styles.joinRow}>
-        <TextInput
-          style={[styles.input, styles.inputGrow]}
-          placeholder="Código"
-          value={inviteCode}
-          onChangeText={setInviteCode}
-        />
-        <Pressable style={styles.button} onPress={joinLeague}>
-          <Text style={styles.buttonText}>Entrar</Text>
-        </Pressable>
-      </View>
-
-      <Text style={styles.section}>Ligas</Text>
-      {loading ? (
-        <ActivityIndicator />
-      ) : (
-        <FlatList
-          data={leagues}
-          keyExtractor={(item) => item.id}
-          contentContainerStyle={styles.list}
-          renderItem={({ item }) => (
-            <View style={styles.leagueRow}>
-              <View>
-                <Text style={styles.leagueName}>{item.name}</Text>
-                <Text style={styles.leagueMeta}>
-                  {item.is_public ? "Pública" : "Privada"} • Código: {item.invite_code ?? "—"}
-                </Text>
-              </View>
-            </View>
-          )}
-          ListEmptyComponent={<Text style={styles.empty}>Nenhuma liga.</Text>}
-        />
-      )}
-    </View>
-  );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    padding: 24,
-    gap: 8,
-  },
-  title: {
-    fontSize: 24,
-    fontWeight: "600",
-  },
-  subtitle: {
-    color: "#666",
-  },
-  section: {
-    marginTop: 10,
-    fontWeight: "600",
-  },
-  input: {
-    borderWidth: 1,
-    borderColor: "#ddd",
-    borderRadius: 10,
-    padding: 10,
-  },
-  inputGrow: {
-    flex: 1,
-  },
-  button: {
-    backgroundColor: "#111",
-    paddingVertical: 10,
-    paddingHorizontal: 14,
-    borderRadius: 10,
-  },
-  buttonText: {
-    color: "#fff",
-    fontWeight: "600",
-  },
-  toggleRow: {
-    flexDirection: "row",
-    alignItems: "center",
-    gap: 10,
-  },
-  toggle: {
-    borderWidth: 1,
-    borderColor: "#ddd",
-    borderRadius: 10,
-    paddingVertical: 10,
-    paddingHorizontal: 14,
-  },
-  toggleActive: {
-    backgroundColor: "#111",
-    borderColor: "#111",
-  },
-  toggleText: {
-    color: "#333",
-  },
-  toggleTextActive: {
-    color: "#fff",
-  },
-  joinRow: {
-    flexDirection: "row",
-    alignItems: "center",
-    gap: 10,
-  },
-  list: {
-    paddingVertical: 8,
-    gap: 10,
-  },
-  leagueRow: {
-    borderWidth: 1,
-    borderColor: "#eee",
-    borderRadius: 10,
-    padding: 12,
-    backgroundColor: "#fff",
-  },
-  leagueName: {
-    fontWeight: "600",
-  },
-  leagueMeta: {
-    color: "#777",
-    fontSize: 12,
-  },
-  empty: {
-    color: "#777",
-    textAlign: "center",
-    marginTop: 12,
-  },
-});
+  };  
+  
+  return (  
+    <View style={styles.screen}>  
+      <Text style={styles.title}>Ligas</Text>  
+      <Text style={styles.subtitle}>Crie ligas privadas ou publicas e jogue com amigos.</Text>  
+      <TextInput style={styles.input} placeholder='Nome da liga' placeholderTextColor='#8d8d8d' value={name} onChangeText={setName} />  
+      <View style={styles.row}>  
+        <Pressable style={[styles.chip, isPublic && styles.chipActive]} onPress={() => setIsPublic(!isPublic)}><Text style={styles.chipText}>{isPublic ? 'Publica' : 'Privada'}</Text></Pressable>  
+        <Pressable style={styles.button} onPress={createLeague}><Text style={styles.buttonText}>Criar liga</Text></Pressable>  
+      </View>  
+      <View style={styles.row}>  
+        <TextInput style={[styles.input, styles.flex]} placeholder='Codigo de convite' placeholderTextColor='#8d8d8d' value={inviteCode} onChangeText={setInviteCode} />  
+        <Pressable style={styles.button} onPress={joinLeague}><Text style={styles.buttonText}>Entrar</Text></Pressable>  
+      </View>  
+      {loading ? <ActivityIndicator color='#ef4444' /> : <FlatList data={leagues} keyExtractor={(i) => i.id} contentContainerStyle={styles.list} renderItem={({ item }) => <View style={styles.item}><Text style={styles.name}>{item.name}</Text><Text style={styles.meta}>{item.is_public ? 'Publica' : 'Privada'} | Codigo: {item.invite_code ?? '-'}</Text></View>} />}  
+    </View>  
+  );  
+}  
+  
+const styles = StyleSheet.create({  
+  screen: { flex: 1, backgroundColor: '#0b0b0b', padding: 20, gap: 10 },  
+  title: { color: '#fff', fontSize: 28, fontWeight: '700' },  
+  subtitle: { color: '#b3b3b3', marginBottom: 4 },  
+  row: { flexDirection: 'row', gap: 8, alignItems: 'center' },  
+  flex: { flex: 1 },  
+  input: { backgroundColor: '#101010', borderColor: '#3a3a3a', borderWidth: 1, borderRadius: 12, color: '#fff', paddingHorizontal: 14, paddingVertical: 12 },  
+  button: { backgroundColor: '#b91c1c', borderRadius: 12, paddingVertical: 12, paddingHorizontal: 14 },  
+  buttonText: { color: '#fff', fontWeight: '700' },  
+  chip: { borderColor: '#3a3a3a', borderWidth: 1, borderRadius: 12, paddingVertical: 11, paddingHorizontal: 12, backgroundColor: '#141414' },  
+  chipActive: { backgroundColor: '#7f1d1d', borderColor: '#ef4444' },  
+  chipText: { color: '#fff', fontWeight: '600' },  
+  list: { paddingVertical: 8, gap: 10 },  
+  item: { backgroundColor: '#141414', borderColor: '#2d2d2d', borderWidth: 1, borderRadius: 12, padding: 14 },  
+  name: { color: '#fff', fontWeight: '700' },  
+  meta: { color: '#b3b3b3', fontSize: 12 },  
+}); 

@@ -1,7 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import {
   ActivityIndicator,
-  Alert,
   FlatList,
   Pressable,
   StyleSheet,
@@ -12,6 +11,7 @@ import {
 import { DEFAULT_FORMATION, FORMATION_LIMITS, FORMATIONS, Formation } from "@/constants/formations";
 import { POSITION_GROUPS, POSITION_LABELS } from "@/constants/positions";
 import { Athlete, fetchAthletes, fetchMarketAthletes, getOpenRound, getSessionUserId, getTeamForUser } from "@/lib/data";
+import { showError, showSuccess } from "@/lib/feedback";
 import { supabase } from "@/lib/supabase";
 
 export default function LineupScreen() {
@@ -27,22 +27,28 @@ export default function LineupScreen() {
   useEffect(() => {
     let mounted = true;
     const load = async () => {
-      const userId = await getSessionUserId();
-      if (!userId) {
+      try {
+        const userId = await getSessionUserId();
+        if (!userId) {
+          if (mounted) setLoading(false);
+          showError("Sessao invalida", "Faca login novamente.");
+          return;
+        }
+        const [team, round] = await Promise.all([getTeamForUser(userId), getOpenRound()]);
+        if (!mounted) return;
+
+        if (team?.id) setTeamId(team.id);
+        if (team?.balance != null) setBudget(team.balance);
+        if (round?.id) setRoundId(round.id);
+
+        const list = round ? await fetchMarketAthletes(round.id) : await fetchAthletes();
+        if (!mounted) return;
+        setAthletes(list.filter((a) => a.position_id !== 6));
+      } catch (error) {
+        showError("Erro ao carregar escalacao", error, "Tente novamente.");
+      } finally {
         if (mounted) setLoading(false);
-        return;
       }
-      const [team, round] = await Promise.all([getTeamForUser(userId), getOpenRound()]);
-      if (!mounted) return;
-
-      if (team?.id) setTeamId(team.id);
-      if (team?.balance != null) setBudget(team.balance);
-      if (round?.id) setRoundId(round.id);
-
-      const list = round ? await fetchMarketAthletes(round.id) : await fetchAthletes();
-      if (!mounted) return;
-      setAthletes(list.filter((a) => a.position_id !== 6));
-      setLoading(false);
     };
     load();
     return () => {
@@ -100,41 +106,50 @@ export default function LineupScreen() {
 
   const onSave = async () => {
     if (!teamId || !roundId) {
-      Alert.alert("Rodada ou time inválido");
+      showError("Dados invalidos", "Rodada ou time invalido.");
       return;
     }
     if (selectedIds.length !== 11 || counts.GK !== 1 || counts.DEF !== limits.DEF || counts.MID !== limits.MID || counts.FWD !== limits.FWD) {
-      Alert.alert("Escalação incompleta", "Preencha a formação selecionada.");
+      showError("Escalacao incompleta", "Preencha a formacao selecionada.");
       return;
     }
     const captain = captainId ?? selectedIds[0];
 
-    const { data: lineup, error: lineupError } = await supabase
-      .from("lineups")
-      .upsert({
-        team_id: teamId,
-        round_id: roundId,
-        captain_athlete_id: captain,
-        formation,
-      }, { onConflict: "team_id,round_id" })
-      .select("id")
-      .single();
+    try {
+      const { data: lineup, error: lineupError } = await supabase
+        .from("lineups")
+        .upsert({
+          team_id: teamId,
+          round_id: roundId,
+          captain_athlete_id: captain,
+          formation,
+        }, { onConflict: "team_id,round_id" })
+        .select("id")
+        .single();
 
-    if (lineupError || !lineup) {
-      Alert.alert("Erro ao salvar escalação", lineupError?.message ?? "Erro desconhecido");
-      return;
+      if (lineupError || !lineup) {
+        showError("Erro ao salvar escalacao", lineupError, "Erro desconhecido.");
+        return;
+      }
+
+      const { error: deleteError } = await supabase.from("lineup_players").delete().eq("lineup_id", lineup.id);
+      if (deleteError) {
+        showError("Erro ao atualizar atletas", deleteError);
+        return;
+      }
+
+      const inserts = selectedIds.map((id) => ({ lineup_id: lineup.id, athlete_id: id, is_starter: true }));
+      const { error: playersError } = await supabase.from("lineup_players").insert(inserts);
+
+      if (playersError) {
+        showError("Erro ao salvar atletas", playersError);
+        return;
+      }
+
+      showSuccess("Escalacao salva", "Seu time foi salvo com sucesso.");
+    } catch (error) {
+      showError("Erro ao salvar escalacao", error, "Tente novamente.");
     }
-
-    await supabase.from("lineup_players").delete().eq("lineup_id", lineup.id);
-    const inserts = selectedIds.map((id) => ({ lineup_id: lineup.id, athlete_id: id, is_starter: true }));
-    const { error: playersError } = await supabase.from("lineup_players").insert(inserts);
-
-    if (playersError) {
-      Alert.alert("Erro ao salvar atletas", playersError.message);
-      return;
-    }
-
-    Alert.alert("Escalação salva!");
   };
 
   return (
